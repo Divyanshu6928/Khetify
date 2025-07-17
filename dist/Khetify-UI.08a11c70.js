@@ -16121,10 +16121,104 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _khetifyLogoPng = require("../../public/assets/Khetify-logo.png");
+var _khetifyLogoPngDefault = parcelHelpers.interopDefault(_khetifyLogoPng);
 const Header = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "navbar"
-    }, void 0, false, {
+        className: "navbar-container",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "nav-left",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                    src: "https://res.cloudinary.com/depyc5ywg/image/upload/v1752729663/Khetify_logo_square_frhx9m.png",
+                    alt: "can't load logo",
+                    height: 80,
+                    className: "khetify-logo"
+                }, void 0, false, {
+                    fileName: "src/components/Header.jsx",
+                    lineNumber: 7,
+                    columnNumber: 17
+                }, undefined)
+            }, void 0, false, {
+                fileName: "src/components/Header.jsx",
+                lineNumber: 6,
+                columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "nav-mid",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                    className: "nav-mid-list",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                            children: "Home"
+                        }, void 0, false, {
+                            fileName: "src/components/Header.jsx",
+                            lineNumber: 11,
+                            columnNumber: 21
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                            children: "About Us"
+                        }, void 0, false, {
+                            fileName: "src/components/Header.jsx",
+                            lineNumber: 12,
+                            columnNumber: 21
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                            children: "Shop"
+                        }, void 0, false, {
+                            fileName: "src/components/Header.jsx",
+                            lineNumber: 13,
+                            columnNumber: 21
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                            children: "Services"
+                        }, void 0, false, {
+                            fileName: "src/components/Header.jsx",
+                            lineNumber: 14,
+                            columnNumber: 21
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/Header.jsx",
+                    lineNumber: 10,
+                    columnNumber: 17
+                }, undefined)
+            }, void 0, false, {
+                fileName: "src/components/Header.jsx",
+                lineNumber: 9,
+                columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "nav-right",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                    className: "nav-right-list",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                            className: "bi bi-globe"
+                        }, void 0, false, {
+                            fileName: "src/components/Header.jsx",
+                            lineNumber: 19,
+                            columnNumber: 21
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                            className: "bi bi-person-circle"
+                        }, void 0, false, {
+                            fileName: "src/components/Header.jsx",
+                            lineNumber: 20,
+                            columnNumber: 21
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/Header.jsx",
+                    lineNumber: 18,
+                    columnNumber: 17
+                }, undefined)
+            }, void 0, false, {
+                fileName: "src/components/Header.jsx",
+                lineNumber: 17,
+                columnNumber: 13
+            }, undefined)
+        ]
+    }, void 0, true, {
         fileName: "src/components/Header.jsx",
         lineNumber: 5,
         columnNumber: 9

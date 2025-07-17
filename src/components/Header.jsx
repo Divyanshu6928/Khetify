@@ -1,8 +1,26 @@
-import {logo} from "../../public/assets/Khetify-logo.png"
+import logo from "../../public/assets/Khetify-logo.png"
 
 const Header = () => {
     return(
-        <div className="navbar"></div>
+        <div className="navbar-container">
+            <div className="nav-left">
+                <img src="https://res.cloudinary.com/depyc5ywg/image/upload/v1752729663/Khetify_logo_square_frhx9m.png" alt="can't load logo" height={80} className="khetify-logo" />
+            </div>
+            <div className="nav-mid">
+                <ul className="nav-mid-list">
+                    <li>Home</li>
+                    <li>About Us</li>
+                    <li>Shop</li>
+                    <li>Services</li>
+                </ul>
+            </div>
+            <div className="nav-right">
+                <ul className="nav-right-list">
+                    <li className="bi bi-globe"></li>
+                    <li className="bi bi-person-circle"></li>
+                </ul>
+            </div>
+        </div>
     );
 };
 

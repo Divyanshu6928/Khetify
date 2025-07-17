@@ -1,0 +1,2 @@
+- `Navbar` - #4a774d
+- `Logo square` - #2e6e4c

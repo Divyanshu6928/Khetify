@@ -1,0 +1,38 @@
+body{
+    font-family: Montserrat;
+}
+
+/* Navbar - container */
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+    padding: 5px 15px;
+    border-radius: 12px;
+    background: #4a774d;
+    font-weight: bold;
+    color: white;
+    z-index: 1;
+    border: 2px solid black;
+}
+
+.nav-mid-list, .nav-right-list{
+    /* text-align: center; */
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.nav-left,
+.nav-mid,
+.nav-right {
+  display: flex;
+  align-items: center;
+}
+
+.khetify-logo{
+    border-radius: 8px;
+    box-shadow: 10px 5px px #2e6e4c;
+}
+/* Navbar done */
+
