@@ -226,3 +226,86 @@ body{
   cursor: pointer;
 }
 
+/* Product done */
+
+/* Services Starts */
+.services-body{
+  background: url("https://res.cloudinary.com/depyc5ywg/image/upload/v1752850397/Services_Home_Page_yv319d.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 900px;
+  width: 100%;
+}
+
+.feature-cards-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 100px;
+  padding: 20px;
+}
+
+.feature-card {
+  background-color: white;
+  border: 2px solid #000000;
+  border-radius: 16px;
+  width: 400px;
+  height: 500px;
+  box-shadow: 5px 7px 10px black;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 128, 0, 0.2);
+}
+
+.feature-card-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;
+}
+
+.feature-card-content {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.feature-card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-top: 16px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.feature-card-desc {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 16px;
+  font-weight: 700;
+}
+
+.feature-card-btn {
+  background-color: #2e7d32;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 50px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.feature-card-btn:hover {
+  background-color: #1b5e20;
+}

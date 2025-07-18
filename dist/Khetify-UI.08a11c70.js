@@ -686,6 +686,8 @@ var _carousel = require("./src/components/Carousel");
 var _carouselDefault = parcelHelpers.interopDefault(_carousel);
 var _products = require("./src/components/Products");
 var _productsDefault = parcelHelpers.interopDefault(_products);
+var _services = require("./src/components/Services");
+var _servicesDefault = parcelHelpers.interopDefault(_services);
 const App = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         children: [
@@ -703,6 +705,11 @@ const App = ()=>{
                 fileName: "App.jsx",
                 lineNumber: 13,
                 columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _servicesDefault.default), {}, void 0, false, {
+                fileName: "App.jsx",
+                lineNumber: 14,
+                columnNumber: 13
             }, undefined)
         ]
     }, void 0, true, {
@@ -715,7 +722,7 @@ _c = App;
 const root = (0, _clientDefault.default).createRoot(document.getElementById("root"));
 root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(App, {}, void 0, false, {
     fileName: "App.jsx",
-    lineNumber: 19,
+    lineNumber: 20,
     columnNumber: 13
 }, undefined));
 var _c;
@@ -726,7 +733,7 @@ $RefreshReg$(_c, "App");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","react-dom/client":"hrvwu","./src/components/Header":"8BCUx","./src/components/Carousel":"hqTVY","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","./src/components/Products":"fVukA"}],"dVPUn":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","react-dom/client":"hrvwu","./src/components/Header":"8BCUx","./src/components/Carousel":"hqTVY","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","./src/components/Products":"fVukA","./src/components/Services":"dqcYh"}],"dVPUn":[function(require,module,exports,__globalThis) {
 'use strict';
 module.exports = require("ee51401569654d91");
 
@@ -21876,6 +21883,8 @@ var _reactDefault = parcelHelpers.interopDefault(_react);
 // import Heading from './Heading';
 var _productDetails = require("../../data/productDetails");
 var _productDetailsDefault = parcelHelpers.interopDefault(_productDetails);
+var _heading = require("./Heading");
+var _headingDefault = parcelHelpers.interopDefault(_heading);
 const ProductCards = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "product-card-container",
@@ -21891,7 +21900,7 @@ const ProductCards = ()=>{
                                 className: "product-image"
                             }, void 0, false, {
                                 fileName: "src/components/ProductCards.jsx",
-                                lineNumber: 11,
+                                lineNumber: 13,
                                 columnNumber: 13
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -21902,7 +21911,7 @@ const ProductCards = ()=>{
                                         children: card.title
                                     }, void 0, false, {
                                         fileName: "src/components/ProductCards.jsx",
-                                        lineNumber: 13,
+                                        lineNumber: 15,
                                         columnNumber: 15
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -21910,31 +21919,31 @@ const ProductCards = ()=>{
                                         children: card.description
                                     }, void 0, false, {
                                         fileName: "src/components/ProductCards.jsx",
-                                        lineNumber: 14,
+                                        lineNumber: 16,
                                         columnNumber: 15
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/ProductCards.jsx",
-                                lineNumber: 12,
+                                lineNumber: 14,
                                 columnNumber: 13
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                 className: "bi bi-arrow-right-circle arrow-button"
                             }, void 0, false, {
                                 fileName: "src/components/ProductCards.jsx",
-                                lineNumber: 16,
+                                lineNumber: 18,
                                 columnNumber: 13
                             }, undefined)
                         ]
                     }, index, true, {
                         fileName: "src/components/ProductCards.jsx",
-                        lineNumber: 10,
+                        lineNumber: 12,
                         columnNumber: 11
                     }, undefined))
             }, void 0, false, {
                 fileName: "src/components/ProductCards.jsx",
-                lineNumber: 8,
+                lineNumber: 10,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -21950,18 +21959,18 @@ const ProductCards = ()=>{
                     allowFullScreen: true
                 }, void 0, false, {
                     fileName: "src/components/ProductCards.jsx",
-                    lineNumber: 21,
+                    lineNumber: 23,
                     columnNumber: 9
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/components/ProductCards.jsx",
-                lineNumber: 20,
+                lineNumber: 22,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/components/ProductCards.jsx",
-        lineNumber: 7,
+        lineNumber: 8,
         columnNumber: 5
     }, undefined);
 };
@@ -21975,7 +21984,7 @@ $RefreshReg$(_c, "ProductCards");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","../../data/productDetails":"cz9qX"}],"cz9qX":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","../../data/productDetails":"cz9qX","./Heading":"4IatN"}],"cz9qX":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 const productDetails = [
@@ -21996,6 +22005,167 @@ const productDetails = [
     }
 ];
 exports.default = productDetails;
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"dqcYh":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$09f0 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$09f0.init();
+var prevRefreshReg = globalThis.$RefreshReg$;
+var prevRefreshSig = globalThis.$RefreshSig$;
+$parcel$ReactRefreshHelpers$09f0.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _heading = require("./Heading");
+var _headingDefault = parcelHelpers.interopDefault(_heading);
+var _servicesCard = require("./ServicesCard");
+var _servicesCardDefault = parcelHelpers.interopDefault(_servicesCard);
+const Services = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "services-body",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headingDefault.default), {
+                heading: "SERVICES WE OFFER"
+            }, void 0, false, {
+                fileName: "src/components/Services.jsx",
+                lineNumber: 8,
+                columnNumber: 9
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _servicesCardDefault.default), {}, void 0, false, {
+                fileName: "src/components/Services.jsx",
+                lineNumber: 9,
+                columnNumber: 9
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/components/Services.jsx",
+        lineNumber: 7,
+        columnNumber: 5
+    }, undefined);
+};
+_c = Services;
+exports.default = Services;
+var _c;
+$RefreshReg$(_c, "Services");
+
+  $parcel$ReactRefreshHelpers$09f0.postlude(module);
+} finally {
+  globalThis.$RefreshReg$ = prevRefreshReg;
+  globalThis.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","./Heading":"4IatN","./ServicesCard":"hlMFJ"}],"hlMFJ":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$5caf = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$5caf.init();
+var prevRefreshReg = globalThis.$RefreshReg$;
+var prevRefreshSig = globalThis.$RefreshSig$;
+$parcel$ReactRefreshHelpers$5caf.prelude(module);
+
+try {
+// src/components/FeatureCards.jsx
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _servicesDetails = require("../../data/ServicesDetails");
+var _servicesDetailsDefault = parcelHelpers.interopDefault(_servicesDetails);
+const ServicesCard = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "feature-cards-wrapper services-card-container",
+        children: (0, _servicesDetailsDefault.default).map((card, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "feature-card",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                        className: "feature-card-title",
+                        children: card.heading
+                    }, void 0, false, {
+                        fileName: "src/components/ServicesCard.jsx",
+                        lineNumber: 10,
+                        columnNumber: 13
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "feature-card-content",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                src: card.img_url,
+                                alt: card.heading,
+                                className: "feature-card-img"
+                            }, void 0, false, {
+                                fileName: "src/components/ServicesCard.jsx",
+                                lineNumber: 12,
+                                columnNumber: 13
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                className: "feature-card-desc",
+                                children: card.description
+                            }, void 0, false, {
+                                fileName: "src/components/ServicesCard.jsx",
+                                lineNumber: 13,
+                                columnNumber: 13
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                                className: "feature-card-btn",
+                                children: card.cta_text
+                            }, void 0, false, {
+                                fileName: "src/components/ServicesCard.jsx",
+                                lineNumber: 14,
+                                columnNumber: 13
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/ServicesCard.jsx",
+                        lineNumber: 11,
+                        columnNumber: 11
+                    }, undefined)
+                ]
+            }, index, true, {
+                fileName: "src/components/ServicesCard.jsx",
+                lineNumber: 9,
+                columnNumber: 9
+            }, undefined))
+    }, void 0, false, {
+        fileName: "src/components/ServicesCard.jsx",
+        lineNumber: 7,
+        columnNumber: 5
+    }, undefined);
+};
+_c = ServicesCard;
+exports.default = ServicesCard;
+var _c;
+$RefreshReg$(_c, "ServicesCard");
+
+  $parcel$ReactRefreshHelpers$5caf.postlude(module);
+} finally {
+  globalThis.$RefreshReg$ = prevRefreshReg;
+  globalThis.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","../../data/ServicesDetails":"6GPuC"}],"6GPuC":[function(require,module,exports,__globalThis) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+const ServiceDetails = [
+    {
+        "heading": "Soil Test",
+        "img_url": "https://res.cloudinary.com/depyc5ywg/image/upload/v1752859321/Soil_Test_pgsro3.png",
+        "description": "Get an in-depth report on your soil's health and expert guidance to ensure your crops thrive and stay disease-free.",
+        "cta_text": "Explore Now"
+    },
+    {
+        "heading": "IoT Device",
+        "img_url": "https://res.cloudinary.com/depyc5ywg/image/upload/v1752859321/IoT_Device_oizgz1.png",
+        "description": "Optimize irrigation with our IoT device that monitors weather, crop type, and soil quality, automating water supply for efficient and timely irrigation",
+        "cta_text": "Explore Now"
+    },
+    {
+        "heading": "Crop Scanner",
+        "img_url": "https://res.cloudinary.com/depyc5ywg/image/upload/v1752859846/Crop_Scanner_xugccq.png",
+        "description": "Using advanced image recognition, our system analyzes leaf images to detect potential crop diseases, connecting you to experts for timely solutions and care.",
+        "cta_text": "Explore Now"
+    }
+];
+exports.default = ServiceDetails;
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}]},["d2FNE","96tIl"], "96tIl", "parcelRequire94c2", {}, null, null, "http://localhost:1234")
 
