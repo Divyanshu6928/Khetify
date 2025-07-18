@@ -4,7 +4,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 const Carousel = () => {
   return (
-    <div id="carousel" className="carousel slide opacity-50" data-bs-ride="carousel">
+    <div id="carousel" className="carousel slide opacity-75" data-bs-ride="carousel">
       <div className="carousel-inner">
         {images.map((img, index) => (
           <div className={`carousel-item ${index === 0 ? "active" : ""}`} key={img.public_id}>

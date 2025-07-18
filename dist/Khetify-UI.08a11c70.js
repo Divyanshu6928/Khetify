@@ -684,23 +684,30 @@ var _header = require("./src/components/Header");
 var _headerDefault = parcelHelpers.interopDefault(_header);
 var _carousel = require("./src/components/Carousel");
 var _carouselDefault = parcelHelpers.interopDefault(_carousel);
+var _products = require("./src/components/Products");
+var _productsDefault = parcelHelpers.interopDefault(_products);
 const App = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headerDefault.default), {}, void 0, false, {
                 fileName: "App.jsx",
-                lineNumber: 9,
+                lineNumber: 11,
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _carouselDefault.default), {}, void 0, false, {
                 fileName: "App.jsx",
-                lineNumber: 10,
+                lineNumber: 12,
+                columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _productsDefault.default), {}, void 0, false, {
+                fileName: "App.jsx",
+                lineNumber: 13,
                 columnNumber: 13
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "App.jsx",
-        lineNumber: 8,
+        lineNumber: 10,
         columnNumber: 9
     }, undefined);
 };
@@ -708,7 +715,7 @@ _c = App;
 const root = (0, _clientDefault.default).createRoot(document.getElementById("root"));
 root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(App, {}, void 0, false, {
     fileName: "App.jsx",
-    lineNumber: 16,
+    lineNumber: 19,
     columnNumber: 13
 }, undefined));
 var _c;
@@ -719,7 +726,7 @@ $RefreshReg$(_c, "App");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","react-dom/client":"hrvwu","./src/components/Header":"8BCUx","./src/components/Carousel":"hqTVY","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"dVPUn":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","react-dom/client":"hrvwu","./src/components/Header":"8BCUx","./src/components/Carousel":"hqTVY","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","./src/components/Products":"fVukA"}],"dVPUn":[function(require,module,exports,__globalThis) {
 'use strict';
 module.exports = require("ee51401569654d91");
 
@@ -18570,7 +18577,7 @@ var _bootstrapBundleMinJs = require("bootstrap/dist/js/bootstrap.bundle.min.js")
 const Carousel = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         id: "carousel",
-        className: "carousel slide opacity-50",
+        className: "carousel slide opacity-75",
         "data-bs-ride": "carousel",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -21756,6 +21763,240 @@ exports.default = images;
     };
 });
 
-},{}]},["d2FNE","96tIl"], "96tIl", "parcelRequire94c2", {}, null, null, "http://localhost:1234")
+},{}],"fVukA":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$92cb = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$92cb.init();
+var prevRefreshReg = globalThis.$RefreshReg$;
+var prevRefreshSig = globalThis.$RefreshSig$;
+$parcel$ReactRefreshHelpers$92cb.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _productCards = require("./ProductCards");
+var _productCardsDefault = parcelHelpers.interopDefault(_productCards);
+var _heading = require("./Heading");
+var _headingDefault = parcelHelpers.interopDefault(_heading);
+const Products = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "product-body",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headingDefault.default), {
+                heading: "OUR PRODUCTS"
+            }, void 0, false, {
+                fileName: "src/components/Products.jsx",
+                lineNumber: 8,
+                columnNumber: 9
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _productCardsDefault.default), {}, void 0, false, {
+                fileName: "src/components/Products.jsx",
+                lineNumber: 10,
+                columnNumber: 9
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/components/Products.jsx",
+        lineNumber: 7,
+        columnNumber: 5
+    }, undefined);
+};
+_c = Products;
+exports.default = Products;
+var _c;
+$RefreshReg$(_c, "Products");
+
+  $parcel$ReactRefreshHelpers$92cb.postlude(module);
+} finally {
+  globalThis.$RefreshReg$ = prevRefreshReg;
+  globalThis.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","./Heading":"4IatN","./ProductCards":"gXvUM"}],"4IatN":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$fae5 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$fae5.init();
+var prevRefreshReg = globalThis.$RefreshReg$;
+var prevRefreshSig = globalThis.$RefreshSig$;
+$parcel$ReactRefreshHelpers$fae5.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+const Heading = ({ heading })=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "heading-container",
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "heading",
+            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "heading-text",
+                children: heading
+            }, void 0, false, {
+                fileName: "src/components/Heading.jsx",
+                lineNumber: 7,
+                columnNumber: 13
+            }, undefined)
+        }, void 0, false, {
+            fileName: "src/components/Heading.jsx",
+            lineNumber: 6,
+            columnNumber: 9
+        }, undefined)
+    }, void 0, false, {
+        fileName: "src/components/Heading.jsx",
+        lineNumber: 5,
+        columnNumber: 5
+    }, undefined);
+};
+_c = Heading;
+exports.default = Heading;
+var _c;
+$RefreshReg$(_c, "Heading");
+
+  $parcel$ReactRefreshHelpers$fae5.postlude(module);
+} finally {
+  globalThis.$RefreshReg$ = prevRefreshReg;
+  globalThis.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"gXvUM":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$ebf9 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$ebf9.init();
+var prevRefreshReg = globalThis.$RefreshReg$;
+var prevRefreshSig = globalThis.$RefreshSig$;
+$parcel$ReactRefreshHelpers$ebf9.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+// import Heading from './Heading';
+var _productDetails = require("../../data/productDetails");
+var _productDetailsDefault = parcelHelpers.interopDefault(_productDetails);
+const ProductCards = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "product-card-container",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "product-container",
+                children: (0, _productDetailsDefault.default).map((card, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "product-card",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                src: card.img_url,
+                                alt: card.title,
+                                className: "product-image"
+                            }, void 0, false, {
+                                fileName: "src/components/ProductCards.jsx",
+                                lineNumber: 11,
+                                columnNumber: 13
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "product-content",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                                        className: "product-title",
+                                        children: card.title
+                                    }, void 0, false, {
+                                        fileName: "src/components/ProductCards.jsx",
+                                        lineNumber: 13,
+                                        columnNumber: 15
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                        className: "product-description",
+                                        children: card.description
+                                    }, void 0, false, {
+                                        fileName: "src/components/ProductCards.jsx",
+                                        lineNumber: 14,
+                                        columnNumber: 15
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/ProductCards.jsx",
+                                lineNumber: 12,
+                                columnNumber: 13
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "bi bi-arrow-right-circle arrow-button"
+                            }, void 0, false, {
+                                fileName: "src/components/ProductCards.jsx",
+                                lineNumber: 16,
+                                columnNumber: 13
+                            }, undefined)
+                        ]
+                    }, index, true, {
+                        fileName: "src/components/ProductCards.jsx",
+                        lineNumber: 10,
+                        columnNumber: 11
+                    }, undefined))
+            }, void 0, false, {
+                fileName: "src/components/ProductCards.jsx",
+                lineNumber: 8,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "youtube-ad",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("iframe", {
+                    width: "560",
+                    height: "315",
+                    src: "https://www.youtube.com/embed/6AmTYvlGoaI?si=T-e_ttR6kSawAqi6",
+                    title: "YouTube video player",
+                    frameBorder: "0",
+                    allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share",
+                    referrerPolicy: "strict-origin-when-cross-origin",
+                    allowFullScreen: true
+                }, void 0, false, {
+                    fileName: "src/components/ProductCards.jsx",
+                    lineNumber: 21,
+                    columnNumber: 9
+                }, undefined)
+            }, void 0, false, {
+                fileName: "src/components/ProductCards.jsx",
+                lineNumber: 20,
+                columnNumber: 7
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/components/ProductCards.jsx",
+        lineNumber: 7,
+        columnNumber: 5
+    }, undefined);
+};
+_c = ProductCards;
+exports.default = ProductCards;
+var _c;
+$RefreshReg$(_c, "ProductCards");
+
+  $parcel$ReactRefreshHelpers$ebf9.postlude(module);
+} finally {
+  globalThis.$RefreshReg$ = prevRefreshReg;
+  globalThis.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","../../data/productDetails":"cz9qX"}],"cz9qX":[function(require,module,exports,__globalThis) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+const productDetails = [
+    {
+        img_url: "https://res.cloudinary.com/depyc5ywg/image/upload/v1752847647/Soil_testing-Photoroom_1_d6bhhn.png",
+        title: "Soil Health Management",
+        description: "We analyze soil samples to provide precise insights into soil health, helping you optimize nutrients and improve crop productivity."
+    },
+    {
+        img_url: "https://res.cloudinary.com/depyc5ywg/image/upload/v1752847647/Irrigation-Photoroom_1_i1oixt.png",
+        title: "Automatic Irrigation",
+        description: "Our solar-powered automatic irrigation system adjusts watering based on land area, soil condition, crop type, and weather,ensuring efficient and sustainable water use for optimal crop growth."
+    },
+    {
+        img_url: "https://res.cloudinary.com/depyc5ywg/image/upload/v1752847647/climate-Photoroom_1_zlkchf.png",
+        title: "Climate-Smart Farming",
+        description: "Our platform offers crop diversification recommendations tailored to weather patterns, soil type, and market prices."
+    }
+];
+exports.default = productDetails;
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}]},["d2FNE","96tIl"], "96tIl", "parcelRequire94c2", {}, null, null, "http://localhost:1234")
 
 //# sourceMappingURL=Khetify-UI.08a11c70.js.map
