@@ -14,6 +14,8 @@ body{
     color: white;
     z-index: 1;
     border: 2px solid black;
+    position: absolute;
+    width: 90%;
 }
 
 .nav-mid-list, .nav-right-list{
@@ -36,3 +38,66 @@ body{
 }
 /* Navbar done */
 
+/* Carousel CSS */
+.carousel {
+  position: relative;
+}
+
+.carousel-item {
+  position: relative;
+}
+
+.carousel-card-title{
+    font-weight: bold;
+}
+
+.overlay-card {
+  position: absolute;
+  top: 70%;
+  left: 8%;
+  transform: translateY(-50%);
+  z-index: 10;
+  padding: 2rem;
+  max-width: 700px;
+
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.25); /* glass effect */
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 3px solid rgba(0, 0, 0, 0.3);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+  color: #000;
+  text-align: center;
+}
+
+/* Heading */
+.overlay-card h4 {
+  font-weight: 700;
+  font-size: 1.8rem;
+  margin-bottom: 0.75rem;
+}
+
+/* Description */
+.overlay-card p {
+  font-size: 1.1rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+/* Button */
+.overlay-card button {
+  background-color: #2f8132;
+  color: white;
+  border: 2px solid #1b5e20;
+  padding: 0.6rem 1.5rem;
+  font-weight: 600;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.overlay-card button:hover {
+  background-color: white;
+  color: #1b5e20;
+  border: 2px solid #1b5e20;
+  transform: scale(1.05);
+}

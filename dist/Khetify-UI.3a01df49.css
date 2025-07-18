@@ -9,10 +9,12 @@ body {
   border: 2px solid #000;
   border-radius: 12px;
   justify-content: space-between;
+  width: 90%;
   margin: 50px;
   padding: 5px 15px;
   font-weight: bold;
   display: flex;
+  position: absolute;
 }
 
 .nav-mid-list, .nav-right-list {
@@ -29,5 +31,59 @@ body {
 .khetify-logo {
   box-shadow: 10px 5px px #2e6e4c;
   border-radius: 8px;
+}
+
+.carousel, .carousel-item {
+  position: relative;
+}
+
+.carousel-card-title {
+  font-weight: bold;
+}
+
+.overlay-card {
+  z-index: 10;
+  -webkit-backdrop-filter: blur(10px);
+  color: #000;
+  text-align: center;
+  background: #ffffff40;
+  border: 3px solid #0000004d;
+  border-radius: 20px;
+  max-width: 700px;
+  padding: 2rem;
+  position: absolute;
+  top: 70%;
+  left: 8%;
+  transform: translateY(-50%);
+  box-shadow: 0 8px 30px #0003;
+}
+
+.overlay-card h4 {
+  margin-bottom: .75rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.overlay-card p {
+  color: #333;
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+}
+
+.overlay-card button {
+  color: #fff;
+  background-color: #2f8132;
+  border: 2px solid #1b5e20;
+  border-radius: 10px;
+  padding: .6rem 1.5rem;
+  font-weight: 600;
+  transition: all .3s ease-in-out;
+}
+
+.overlay-card button:hover {
+  color: #1b5e20;
+  background-color: #fff;
+  border: 2px solid #1b5e20;
+  transform: scale(1.05);
 }
 /*# sourceMappingURL=Khetify-UI.3a01df49.css.map */

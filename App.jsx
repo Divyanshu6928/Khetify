@@ -1,11 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom/client"
 import Header from "./src/components/Header"
+import Carousel from "./src/components/Carousel";
 
 const App = () => {
     return (
         <div>
-            <Header/>
+            <Header />
+            <Carousel />
         </div>
     );
 };
