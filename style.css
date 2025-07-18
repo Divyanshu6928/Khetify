@@ -309,3 +309,14 @@ body{
 .feature-card-btn:hover {
   background-color: #1b5e20;
 }
+/* Service Done */
+
+/* Shop Starts */
+.shop-body{
+  background: url("https://res.cloudinary.com/depyc5ywg/image/upload/v1752861200/Home_page_Shop_leutb2.png");
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 900px;
+  width: 100%;
+}
+

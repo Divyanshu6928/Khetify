@@ -4,6 +4,7 @@ import Header from "./src/components/Header"
 import Carousel from "./src/components/Carousel";
 import Products from "./src/components/Products";
 import Services from "./src/components/Services";
+import Shop from "./src/components/Shop";
 
 const App = () => {
     return (
@@ -12,6 +13,7 @@ const App = () => {
             <Carousel />
             <Products />
             <Services />
+            <Shop />
         </div>
     );
 };

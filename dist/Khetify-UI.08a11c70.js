@@ -688,33 +688,40 @@ var _products = require("./src/components/Products");
 var _productsDefault = parcelHelpers.interopDefault(_products);
 var _services = require("./src/components/Services");
 var _servicesDefault = parcelHelpers.interopDefault(_services);
+var _shop = require("./src/components/Shop");
+var _shopDefault = parcelHelpers.interopDefault(_shop);
 const App = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headerDefault.default), {}, void 0, false, {
                 fileName: "App.jsx",
-                lineNumber: 11,
+                lineNumber: 12,
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _carouselDefault.default), {}, void 0, false, {
                 fileName: "App.jsx",
-                lineNumber: 12,
+                lineNumber: 13,
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _productsDefault.default), {}, void 0, false, {
                 fileName: "App.jsx",
-                lineNumber: 13,
+                lineNumber: 14,
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _servicesDefault.default), {}, void 0, false, {
                 fileName: "App.jsx",
-                lineNumber: 14,
+                lineNumber: 15,
+                columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _shopDefault.default), {}, void 0, false, {
+                fileName: "App.jsx",
+                lineNumber: 16,
                 columnNumber: 13
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "App.jsx",
-        lineNumber: 10,
+        lineNumber: 11,
         columnNumber: 9
     }, undefined);
 };
@@ -722,7 +729,7 @@ _c = App;
 const root = (0, _clientDefault.default).createRoot(document.getElementById("root"));
 root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(App, {}, void 0, false, {
     fileName: "App.jsx",
-    lineNumber: 20,
+    lineNumber: 22,
     columnNumber: 13
 }, undefined));
 var _c;
@@ -733,7 +740,7 @@ $RefreshReg$(_c, "App");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","react-dom/client":"hrvwu","./src/components/Header":"8BCUx","./src/components/Carousel":"hqTVY","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","./src/components/Products":"fVukA","./src/components/Services":"dqcYh"}],"dVPUn":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","react-dom/client":"hrvwu","./src/components/Header":"8BCUx","./src/components/Carousel":"hqTVY","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","./src/components/Products":"fVukA","./src/components/Services":"dqcYh","./src/components/Shop":"hYezB"}],"dVPUn":[function(require,module,exports,__globalThis) {
 'use strict';
 module.exports = require("ee51401569654d91");
 
@@ -22166,6 +22173,194 @@ const ServiceDetails = [
     }
 ];
 exports.default = ServiceDetails;
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"hYezB":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$b31f = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$b31f.init();
+var prevRefreshReg = globalThis.$RefreshReg$;
+var prevRefreshSig = globalThis.$RefreshSig$;
+$parcel$ReactRefreshHelpers$b31f.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _shopCard = require("./ShopCard");
+var _shopCardDefault = parcelHelpers.interopDefault(_shopCard);
+var _heading = require("./Heading");
+var _headingDefault = parcelHelpers.interopDefault(_heading);
+const Shop = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "shop-body",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headingDefault.default), {
+                heading: "SHOP WITH US"
+            }, void 0, false, {
+                fileName: "src/components/Shop.jsx",
+                lineNumber: 8,
+                columnNumber: 9
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _shopCardDefault.default), {}, void 0, false, {
+                fileName: "src/components/Shop.jsx",
+                lineNumber: 9,
+                columnNumber: 9
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/components/Shop.jsx",
+        lineNumber: 7,
+        columnNumber: 5
+    }, undefined);
+};
+_c = Shop;
+exports.default = Shop;
+var _c;
+$RefreshReg$(_c, "Shop");
+
+  $parcel$ReactRefreshHelpers$b31f.postlude(module);
+} finally {
+  globalThis.$RefreshReg$ = prevRefreshReg;
+  globalThis.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","./ShopCard":"chAoZ","./Heading":"4IatN","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"chAoZ":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$4aa5 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$4aa5.init();
+var prevRefreshReg = globalThis.$RefreshReg$;
+var prevRefreshSig = globalThis.$RefreshSig$;
+$parcel$ReactRefreshHelpers$4aa5.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _shopDetails = require("../../data/ShopDetails");
+var _shopDetailsDefault = parcelHelpers.interopDefault(_shopDetails);
+const ShopCard = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "shop-card-container",
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "shop-container",
+            children: (0, _shopDetailsDefault.default).map((card, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "shop-card",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "shop-products",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                    src: card.img_url,
+                                    alt: card.title,
+                                    className: "shop-img"
+                                }, void 0, false, {
+                                    fileName: "src/components/ShopCard.jsx",
+                                    lineNumber: 11,
+                                    columnNumber: 25
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                    className: "shop-title",
+                                    children: card.title
+                                }, void 0, false, {
+                                    fileName: "src/components/ShopCard.jsx",
+                                    lineNumber: 12,
+                                    columnNumber: 25
+                                }, undefined)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/ShopCard.jsx",
+                            lineNumber: 10,
+                            columnNumber: 21
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "shop-product-details",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                    className: "shop-price",
+                                    children: card.price
+                                }, void 0, false, {
+                                    fileName: "src/components/ShopCard.jsx",
+                                    lineNumber: 15,
+                                    columnNumber: 25
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                                    className: "shop-card-btn bi bi-cart-fill",
+                                    children: card.cta_text
+                                }, void 0, false, {
+                                    fileName: "src/components/ShopCard.jsx",
+                                    lineNumber: 16,
+                                    columnNumber: 25
+                                }, undefined)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/ShopCard.jsx",
+                            lineNumber: 14,
+                            columnNumber: 21
+                        }, undefined)
+                    ]
+                }, index, true, {
+                    fileName: "src/components/ShopCard.jsx",
+                    lineNumber: 9,
+                    columnNumber: 17
+                }, undefined))
+        }, void 0, false, {
+            fileName: "src/components/ShopCard.jsx",
+            lineNumber: 7,
+            columnNumber: 9
+        }, undefined)
+    }, void 0, false, {
+        fileName: "src/components/ShopCard.jsx",
+        lineNumber: 6,
+        columnNumber: 5
+    }, undefined);
+};
+_c = ShopCard;
+exports.default = ShopCard;
+var _c;
+$RefreshReg$(_c, "ShopCard");
+
+  $parcel$ReactRefreshHelpers$4aa5.postlude(module);
+} finally {
+  globalThis.$RefreshReg$ = prevRefreshReg;
+  globalThis.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","../../data/ShopDetails":"hHCY5"}],"hHCY5":[function(require,module,exports,__globalThis) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+const ShopDetails = [
+    {
+        "img_url": "https://res.cloudinary.com/depyc5ywg/image/upload/v1752866264/Peas_gaunzm.png",
+        "title": "Peas",
+        "price": "\u20B9380.00",
+        "cta-text": "Buy Now !!"
+    },
+    {
+        "img_url": "https://res.cloudinary.com/depyc5ywg/image/upload/v1752866266/Sunflower_Seeds_plxqd2.png",
+        "title": "Sunflower Seeds",
+        "price": "\u20B9603.00",
+        "cta-text": "Buy Now !!"
+    },
+    {
+        "img_url": "https://res.cloudinary.com/depyc5ywg/image/upload/v1752866264/Mustard_qg7lcx.png",
+        "title": "Mustard",
+        "price": "\u20B9303.00",
+        "cta-text": "Buy Now !!"
+    },
+    {
+        "img_url": "https://res.cloudinary.com/depyc5ywg/image/upload/v1752866265/Ragi_t7trzq.png",
+        "title": "Raagi",
+        "price": "\u20B9150.00",
+        "cta-text": "Buy Now !!"
+    },
+    {
+        "img_url": "https://res.cloudinary.com/depyc5ywg/image/upload/v1752866265/Wheat_kukaro.png",
+        "title": "Wheat",
+        "price": "\u20B967.00",
+        "cta-text": "Buy Now !!"
+    }
+];
+exports.default = ShopDetails;
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}]},["d2FNE","96tIl"], "96tIl", "parcelRequire94c2", {}, null, null, "http://localhost:1234")
 
