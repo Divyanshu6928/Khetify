@@ -30,9 +30,9 @@ const ShopDetails = [
         "cta_text" : "Buy Now !!"
     },
     {
-        "img_url" : "https://res.cloudinary.com/depyc5ywg/image/upload/v1752866265/Wheat_kukaro.png",
-        "title" : "Wheat",
-        "price" : "₹67.00",
+        "img_url" : "https://res.cloudinary.com/depyc5ywg/image/upload/v1753090268/paddy-seeds-packaging-bags-1000x1000-Photoroom_zy75ej.png",
+        "title" : "Seeds",
+        "price" : "₹670.00",
         "cta_text" : "Buy Now !!"
     }
 

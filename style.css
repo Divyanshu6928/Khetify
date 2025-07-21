@@ -423,3 +423,9 @@ body{
     grid-template-columns: 1fr;
   }
 }
+/* Shop-section ends */
+
+/* News-section starts */
+.news-body{
+  background: url("");
+}
