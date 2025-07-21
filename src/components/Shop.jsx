@@ -7,6 +7,7 @@ const Shop = () => {
     <div className='shop-body'>
         <Heading heading="SHOP WITH US" />
         <ShopCard />
+        <button className='shop-btn'>Shop more...</button>
     </div>
   )
 }

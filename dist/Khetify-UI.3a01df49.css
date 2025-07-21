@@ -271,8 +271,102 @@ body {
 }
 
 .shop-body {
+  text-align: center;
   background: url("https://res.cloudinary.com/depyc5ywg/image/upload/v1752861200/Home_page_Shop_leutb2.png") 0 0 / cover no-repeat;
-  width: 100%;
-  height: 900px;
+  padding-bottom: 20px;
+}
+
+.shop-container {
+  grid-template-columns: repeat(3, 1fr);
+  place-items: start center;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+}
+
+.shop-card {
+  text-align: center;
+  background: #fff;
+  border: 3px solid #000;
+  border-radius: 16px;
+  width: 300px;
+  margin-top: 80px;
+  padding: 20px;
+  transition: transform .3s;
+  box-shadow: 0 8px 16px #000;
+}
+
+.shop-card:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.shop-img {
+  object-fit: contain;
+  height: 180px;
+  margin-bottom: 10px;
+}
+
+.shop-title {
+  margin: 10px 0;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.shop-product-details {
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  display: flex;
+}
+
+.shop-price {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.shop-card-btn {
+  color: #fff;
+  cursor: pointer;
+  background-color: #088d45;
+  border: none;
+  border-radius: 6px;
+  padding: 6px 12px;
+  font-size: .9rem;
+  transition: background-color .3s;
+}
+
+.shop-card-btn:hover {
+  background-color: #066b34;
+}
+
+.shop-btn {
+  color: #fff;
+  background: #000;
+  border: 3px solid #fff;
+  border-radius: 12px;
+  margin-top: 32px;
+  padding: 12px;
+  transition: all .5s;
+}
+
+.shop-btn:hover {
+  color: #000;
+  background: #fff;
+  border: 3px solid #000;
+  transition: all .5s;
+  scale: 1.1;
+}
+
+@media (width <= 992px) {
+  .shop-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (width <= 600px) {
+  .shop-container {
+    grid-template-columns: 1fr;
+  }
 }
 /*# sourceMappingURL=Khetify-UI.3a01df49.css.map */

@@ -29,6 +29,12 @@ const ShopDetails = [
         "price" : "₹67.00",
         "cta-text" : "Buy Now !!"
     },
+    {
+        "img_url" : "https://res.cloudinary.com/depyc5ywg/image/upload/v1752866265/Wheat_kukaro.png",
+        "title" : "Wheat",
+        "price" : "₹67.00",
+        "cta-text" : "Buy Now !!"
+    }
 
 ]
 

@@ -22206,6 +22206,14 @@ const Shop = ()=>{
                 fileName: "src/components/Shop.jsx",
                 lineNumber: 9,
                 columnNumber: 9
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                className: "shop-btn",
+                children: "Shop more..."
+            }, void 0, false, {
+                fileName: "src/components/Shop.jsx",
+                lineNumber: 10,
+                columnNumber: 9
             }, undefined)
         ]
     }, void 0, true, {
@@ -22351,6 +22359,12 @@ const ShopDetails = [
         "img_url": "https://res.cloudinary.com/depyc5ywg/image/upload/v1752866265/Ragi_t7trzq.png",
         "title": "Raagi",
         "price": "\u20B9150.00",
+        "cta-text": "Buy Now !!"
+    },
+    {
+        "img_url": "https://res.cloudinary.com/depyc5ywg/image/upload/v1752866265/Wheat_kukaro.png",
+        "title": "Wheat",
+        "price": "\u20B967.00",
         "cta-text": "Buy Now !!"
     },
     {
