@@ -22293,7 +22293,7 @@ const ShopCard = ()=>{
                                     columnNumber: 25
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                                    className: "shop-card-btn bi bi-cart-fill",
+                                    className: "shop-card-btn bi bi-cart-fill pe",
                                     children: card.cta_text
                                 }, void 0, false, {
                                     fileName: "src/components/ShopCard.jsx",
@@ -22341,37 +22341,37 @@ const ShopDetails = [
         "img_url": "https://res.cloudinary.com/depyc5ywg/image/upload/v1752866264/Peas_gaunzm.png",
         "title": "Peas",
         "price": "\u20B9380.00",
-        "cta-text": "Buy Now !!"
+        "cta_text": "Buy Now !!"
     },
     {
         "img_url": "https://res.cloudinary.com/depyc5ywg/image/upload/v1752866266/Sunflower_Seeds_plxqd2.png",
         "title": "Sunflower Seeds",
         "price": "\u20B9603.00",
-        "cta-text": "Buy Now !!"
+        "cta_text": "Buy Now !!"
     },
     {
         "img_url": "https://res.cloudinary.com/depyc5ywg/image/upload/v1752866264/Mustard_qg7lcx.png",
         "title": "Mustard",
         "price": "\u20B9303.00",
-        "cta-text": "Buy Now !!"
+        "cta_text": "Buy Now !!"
     },
     {
         "img_url": "https://res.cloudinary.com/depyc5ywg/image/upload/v1752866265/Ragi_t7trzq.png",
         "title": "Raagi",
         "price": "\u20B9150.00",
-        "cta-text": "Buy Now !!"
+        "cta_text": "Buy Now !!"
     },
     {
         "img_url": "https://res.cloudinary.com/depyc5ywg/image/upload/v1752866265/Wheat_kukaro.png",
         "title": "Wheat",
         "price": "\u20B967.00",
-        "cta-text": "Buy Now !!"
+        "cta_text": "Buy Now !!"
     },
     {
         "img_url": "https://res.cloudinary.com/depyc5ywg/image/upload/v1752866265/Wheat_kukaro.png",
         "title": "Wheat",
         "price": "\u20B967.00",
-        "cta-text": "Buy Now !!"
+        "cta_text": "Buy Now !!"
     }
 ];
 exports.default = ShopDetails;
