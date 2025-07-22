@@ -690,38 +690,52 @@ var _services = require("./src/components/Services");
 var _servicesDefault = parcelHelpers.interopDefault(_services);
 var _shop = require("./src/components/Shop");
 var _shopDefault = parcelHelpers.interopDefault(_shop);
+var _news = require("./src/components/News");
+var _newsDefault = parcelHelpers.interopDefault(_news);
+var _testimonial = require("./src/components/Testimonial");
+var _testimonialDefault = parcelHelpers.interopDefault(_testimonial);
 const App = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headerDefault.default), {}, void 0, false, {
                 fileName: "App.jsx",
-                lineNumber: 12,
+                lineNumber: 15,
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _carouselDefault.default), {}, void 0, false, {
                 fileName: "App.jsx",
-                lineNumber: 13,
+                lineNumber: 16,
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _productsDefault.default), {}, void 0, false, {
                 fileName: "App.jsx",
-                lineNumber: 14,
+                lineNumber: 17,
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _servicesDefault.default), {}, void 0, false, {
                 fileName: "App.jsx",
-                lineNumber: 15,
+                lineNumber: 18,
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _shopDefault.default), {}, void 0, false, {
                 fileName: "App.jsx",
-                lineNumber: 16,
+                lineNumber: 19,
+                columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _newsDefault.default), {}, void 0, false, {
+                fileName: "App.jsx",
+                lineNumber: 20,
+                columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _testimonialDefault.default), {}, void 0, false, {
+                fileName: "App.jsx",
+                lineNumber: 21,
                 columnNumber: 13
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "App.jsx",
-        lineNumber: 11,
+        lineNumber: 14,
         columnNumber: 9
     }, undefined);
 };
@@ -729,7 +743,7 @@ _c = App;
 const root = (0, _clientDefault.default).createRoot(document.getElementById("root"));
 root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(App, {}, void 0, false, {
     fileName: "App.jsx",
-    lineNumber: 22,
+    lineNumber: 27,
     columnNumber: 13
 }, undefined));
 var _c;
@@ -740,7 +754,7 @@ $RefreshReg$(_c, "App");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","react-dom/client":"hrvwu","./src/components/Header":"8BCUx","./src/components/Carousel":"hqTVY","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","./src/components/Products":"fVukA","./src/components/Services":"dqcYh","./src/components/Shop":"hYezB"}],"dVPUn":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","react-dom/client":"hrvwu","./src/components/Header":"8BCUx","./src/components/Carousel":"hqTVY","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","./src/components/Products":"fVukA","./src/components/Services":"dqcYh","./src/components/Shop":"hYezB","./src/components/News":"3xz8R","./src/components/Testimonial":"1ysNr"}],"dVPUn":[function(require,module,exports,__globalThis) {
 'use strict';
 module.exports = require("ee51401569654d91");
 
@@ -22293,7 +22307,7 @@ const ShopCard = ()=>{
                                     columnNumber: 25
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                                    className: "shop-card-btn bi bi-cart-fill pe",
+                                    className: "shop-card-btn bi bi-cart-fill",
                                     children: card.cta_text
                                 }, void 0, false, {
                                     fileName: "src/components/ShopCard.jsx",
@@ -22376,6 +22390,361 @@ const ShopDetails = [
 ];
 exports.default = ShopDetails;
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}]},["d2FNE","96tIl"], "96tIl", "parcelRequire94c2", {}, null, null, "http://localhost:1234")
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"3xz8R":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$4dca = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$4dca.init();
+var prevRefreshReg = globalThis.$RefreshReg$;
+var prevRefreshSig = globalThis.$RefreshSig$;
+$parcel$ReactRefreshHelpers$4dca.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _newsCard = require("./NewsCard");
+var _newsCardDefault = parcelHelpers.interopDefault(_newsCard);
+var _heading = require("./Heading");
+var _headingDefault = parcelHelpers.interopDefault(_heading);
+const News = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "news-body",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headingDefault.default), {
+                heading: "LATEST NEWS"
+            }, void 0, false, {
+                fileName: "src/components/News.jsx",
+                lineNumber: 8,
+                columnNumber: 9
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _newsCardDefault.default), {}, void 0, false, {
+                fileName: "src/components/News.jsx",
+                lineNumber: 9,
+                columnNumber: 9
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/components/News.jsx",
+        lineNumber: 7,
+        columnNumber: 5
+    }, undefined);
+};
+_c = News;
+exports.default = News;
+var _c;
+$RefreshReg$(_c, "News");
+
+  $parcel$ReactRefreshHelpers$4dca.postlude(module);
+} finally {
+  globalThis.$RefreshReg$ = prevRefreshReg;
+  globalThis.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","./NewsCard":"bfHEw","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","./Heading":"4IatN"}],"bfHEw":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$ea2e = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$ea2e.init();
+var prevRefreshReg = globalThis.$RefreshReg$;
+var prevRefreshSig = globalThis.$RefreshSig$;
+$parcel$ReactRefreshHelpers$ea2e.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _newsDetails = require("../../data/NewsDetails");
+var _newsDetailsDefault = parcelHelpers.interopDefault(_newsDetails);
+const NewsCard = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "news-card-body-container",
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "news-card-container",
+            children: (0, _newsDetailsDefault.default).map((card, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "news-card",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                src: card.img_url,
+                                alt: "News not found",
+                                className: "news-card-img"
+                            }, void 0, false, {
+                                fileName: "src/components/NewsCard.jsx",
+                                lineNumber: 12,
+                                columnNumber: 13
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "src/components/NewsCard.jsx",
+                            lineNumber: 11,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "news-details",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                    className: "news-heading",
+                                    children: card.news_body
+                                }, void 0, false, {
+                                    fileName: "src/components/NewsCard.jsx",
+                                    lineNumber: 15,
+                                    columnNumber: 13
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                    className: "news-content",
+                                    children: card.news_content
+                                }, void 0, false, {
+                                    fileName: "src/components/NewsCard.jsx",
+                                    lineNumber: 16,
+                                    columnNumber: 13
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                    className: "news-arrow-btn",
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                        className: "bi bi-arrow-right-circle"
+                                    }, void 0, false, {
+                                        fileName: "src/components/NewsCard.jsx",
+                                        lineNumber: 17,
+                                        columnNumber: 43
+                                    }, undefined)
+                                }, void 0, false, {
+                                    fileName: "src/components/NewsCard.jsx",
+                                    lineNumber: 17,
+                                    columnNumber: 13
+                                }, undefined)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/NewsCard.jsx",
+                            lineNumber: 14,
+                            columnNumber: 11
+                        }, undefined)
+                    ]
+                }, index, true, {
+                    fileName: "src/components/NewsCard.jsx",
+                    lineNumber: 10,
+                    columnNumber: 9
+                }, undefined))
+        }, void 0, false, {
+            fileName: "src/components/NewsCard.jsx",
+            lineNumber: 7,
+            columnNumber: 7
+        }, undefined)
+    }, void 0, false, {
+        fileName: "src/components/NewsCard.jsx",
+        lineNumber: 6,
+        columnNumber: 5
+    }, undefined);
+};
+_c = NewsCard;
+exports.default = NewsCard;
+var _c;
+$RefreshReg$(_c, "NewsCard");
+
+  $parcel$ReactRefreshHelpers$ea2e.postlude(module);
+} finally {
+  globalThis.$RefreshReg$ = prevRefreshReg;
+  globalThis.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","../../data/NewsDetails":"8j66b"}],"8j66b":[function(require,module,exports,__globalThis) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+const NewsDetails = [
+    {
+        "img_url": "https://res.cloudinary.com/depyc5ywg/image/upload/v1753106834/News1_ceavte.png",
+        "news_body": "Indian farmers at Pakistan border to benefit from suspended Indus Water Treaty",
+        "news_content": "Highlights The Indus Waters Treaty was signed in 1960 after nine years of negotiations between India and Pakistan ....."
+    },
+    {
+        "img_url": "https://res.cloudinary.com/depyc5ywg/image/upload/v1753106834/News2_juocti.png",
+        "news_body": "India\u2019s wheat output could reach a new high of 114 million tonnes",
+        "news_content": "India\u2019s wheat output could reach a new high of 114 million tonnes A top food ministry official said on Wednesday that wheat production is expected to..."
+    },
+    {
+        "img_url": "https://res.cloudinary.com/depyc5ywg/image/upload/v1753106834/News3_lkwavi.png",
+        "news_body": "Reliance Industries plans to turn sugarcane press mud into biogas",
+        "news_content": "Reliance Industries plans to turn sugarcane press mud into compressed biogas Reliance Industries Limited (RIL), Indi\u2019a\u2019s most valuable company, is..."
+    }
+];
+exports.default = NewsDetails;
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"1ysNr":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$1f8f = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$1f8f.init();
+var prevRefreshReg = globalThis.$RefreshReg$;
+var prevRefreshSig = globalThis.$RefreshSig$;
+$parcel$ReactRefreshHelpers$1f8f.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+// import './TestimonialSection.css';
+var _heading = require("./Heading");
+var _headingDefault = parcelHelpers.interopDefault(_heading);
+const videos = [
+    {
+        title: "Deepali Speaks \u2013 Why Khetify Matters?",
+        url: 'https://www.youtube.com/watch?v=YFTQYDjdBX4'
+    },
+    {
+        title: "Khetify x Ankit: A Farmer\u2019s Voice!",
+        url: 'https://www.youtube.com/embed/VIDEO_ID_2'
+    },
+    {
+        title: "Mitti Se Mobile Tak \u2013 Dinkar Talks About Khetify",
+        url: 'https://www.youtube.com/embed/VIDEO_ID_3'
+    }
+];
+const Testimonial = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "testimonial-section",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headingDefault.default), {
+                heading: "WHAT PEOPLE SAY"
+            }, void 0, false, {
+                fileName: "src/components/Testimonial.jsx",
+                lineNumber: 23,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "testimonial-body",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "video-card",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("iframe", {
+                                width: "560",
+                                height: "315",
+                                src: "https://www.youtube.com/embed/iyPjWmsu-pg?si=X2MbI-y6WpASjRZr",
+                                title: "YouTube video player",
+                                frameBorder: "0",
+                                allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share",
+                                referrerPolicy: "strict-origin-when-cross-origin",
+                                allowFullScreen: true
+                            }, void 0, false, {
+                                fileName: "src/components/Testimonial.jsx",
+                                lineNumber: 27,
+                                columnNumber: 13
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: videos[2].title
+                            }, void 0, false, {
+                                fileName: "src/components/Testimonial.jsx",
+                                lineNumber: 28,
+                                columnNumber: 13
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/Testimonial.jsx",
+                        lineNumber: 26,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "khetify-logo-center",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                            src: "/assets/khetify-logo.png",
+                            alt: "Khetify Logo"
+                        }, void 0, false, {
+                            fileName: "src/components/Testimonial.jsx",
+                            lineNumber: 32,
+                            columnNumber: 11
+                        }, undefined)
+                    }, void 0, false, {
+                        fileName: "src/components/Testimonial.jsx",
+                        lineNumber: 31,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "video-card",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("iframe", {
+                                width: "560",
+                                height: "315",
+                                src: "https://www.youtube.com/embed/YFTQYDjdBX4?si=h5Ce_1TSTzKJalKl",
+                                title: "YouTube video player",
+                                frameBorder: "0",
+                                allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share",
+                                referrerPolicy: "strict-origin-when-cross-origin",
+                                allowFullScreen: true
+                            }, void 0, false, {
+                                fileName: "src/components/Testimonial.jsx",
+                                lineNumber: 36,
+                                columnNumber: 13
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: videos[1].title
+                            }, void 0, false, {
+                                fileName: "src/components/Testimonial.jsx",
+                                lineNumber: 37,
+                                columnNumber: 13
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/Testimonial.jsx",
+                        lineNumber: 35,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "bottom-video",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "video-card",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("iframe", {
+                                    width: "560",
+                                    height: "315",
+                                    src: "https://www.youtube.com/embed/5oJu9we2jrI?si=AYKfbTvJupbMuyrL",
+                                    title: "YouTube video player",
+                                    frameBorder: "0",
+                                    allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share",
+                                    referrerPolicy: "strict-origin-when-cross-origin",
+                                    allowFullScreen: true
+                                }, void 0, false, {
+                                    fileName: "src/components/Testimonial.jsx",
+                                    lineNumber: 42,
+                                    columnNumber: 13
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                    children: videos[2].title
+                                }, void 0, false, {
+                                    fileName: "src/components/Testimonial.jsx",
+                                    lineNumber: 43,
+                                    columnNumber: 13
+                                }, undefined)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/Testimonial.jsx",
+                            lineNumber: 41,
+                            columnNumber: 11
+                        }, undefined)
+                    }, void 0, false, {
+                        fileName: "src/components/Testimonial.jsx",
+                        lineNumber: 40,
+                        columnNumber: 9
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/Testimonial.jsx",
+                lineNumber: 25,
+                columnNumber: 7
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/components/Testimonial.jsx",
+        lineNumber: 22,
+        columnNumber: 5
+    }, undefined);
+};
+_c = Testimonial;
+exports.default = Testimonial;
+var _c;
+$RefreshReg$(_c, "Testimonial");
+
+  $parcel$ReactRefreshHelpers$1f8f.postlude(module);
+} finally {
+  globalThis.$RefreshReg$ = prevRefreshReg;
+  globalThis.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","./Heading":"4IatN"}]},["d2FNE","96tIl"], "96tIl", "parcelRequire94c2", {}, null, null, "http://localhost:1234")
 
 //# sourceMappingURL=Khetify-UI.08a11c70.js.map

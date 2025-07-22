@@ -5,6 +5,9 @@ import Carousel from "./src/components/Carousel";
 import Products from "./src/components/Products";
 import Services from "./src/components/Services";
 import Shop from "./src/components/Shop";
+import News from "./src/components/News";
+import Testimonial from "./src/components/Testimonial";
+
 
 const App = () => {
     return (
@@ -14,6 +17,8 @@ const App = () => {
             <Products />
             <Services />
             <Shop />
+            <News />
+            <Testimonial />
         </div>
     );
 };

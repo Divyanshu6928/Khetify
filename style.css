@@ -427,5 +427,59 @@ body{
 
 /* News-section starts */
 .news-body{
-  background: url("");
+  background: url("https://res.cloudinary.com/depyc5ywg/image/upload/v1753090807/Screenshot_2025-07-21_150846_nxmoxc.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 20px;
+  text-align: center;
 }
+
+.news-card-container{
+  display: grid;
+  grid-template-columns: 6fr 6fr;
+  /* overflow: hidden; */
+}
+
+.news-card{
+  display: flex;
+  max-width: 650px;
+  background-color: #ffffff;
+  margin-top: 40px;
+  border: 3px solid black;
+  box-shadow: 5px 7px 15px black;
+  margin-left: 60px;
+}
+
+.news-card-img{
+  height: 250px;
+  margin-top: 25px;
+}
+
+.news-arrow-btn{
+  font-size: x-large;
+  margin-left: 250px;
+}
+
+.news-heading{
+  margin-top: 40px;
+  font-weight: 700;
+}
+
+.news-content{
+  font-weight: 500;
+}
+
+.news-details{
+  max-width: 300px;
+}
+
+.news-card:hover{
+  scale: 1.02;
+  /* transition: all 0.3s ease-in-out; */
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* News section done */
+
+/* Testimonial section starts */

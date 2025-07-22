@@ -13,7 +13,7 @@ const ShopCard = () => {
                     </div>    
                     <div className='shop-product-details'>
                         <p className='shop-price'>{card.price}</p>
-                        <button className="shop-card-btn bi bi-cart-fill pe">{card.cta_text}</button>
+                        <button className="shop-card-btn bi bi-cart-fill">{card.cta_text}</button>
                     </div>
                 </div>
             ))}
