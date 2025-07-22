@@ -483,6 +483,47 @@ body{
 /* News section done */
 
 /* Testimonial section starts */
+.testimonial-section {
+  background: url("https://res.cloudinary.com/depyc5ywg/image/upload/v1753162444/Khetify-bg-testimonial_1_ryja46.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 50px;
+}
+
+/* Main grid layout */
+.testimonial-body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  justify-content: center;
+  align-items: start;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 120px;
+  position: relative;
+}
+
+/* General video card style */
+.video-card {
+  background-color: #ffffff;
+  padding: 15px;
+  border: 3px solid black;
+  border-radius: 12px;
+  max-width: 500px;
+  box-shadow: 0px 4px 12px black;
+}
 
 
-/* Testimonial section done */
+/* Responsive behavior */
+@media screen and (max-width: 768px) {
+  .testimonial-body {
+    grid-template-columns: 1fr;
+    margin: 40px 20px;
+  }
+
+  .video-card,
+  .video-card-ankit {
+    margin: 0 auto;
+    max-width: 100%;
+  }
+}

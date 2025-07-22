@@ -22584,16 +22584,13 @@ var _heading = require("./Heading");
 var _headingDefault = parcelHelpers.interopDefault(_heading);
 const videos = [
     {
-        title: "Deepali Speaks \u2013 Why Khetify Matters?",
-        url: 'https://www.youtube.com/watch?v=YFTQYDjdBX4'
+        title: "Deepali Speaks \u2013 Why Khetify Matters?"
     },
     {
-        title: "Khetify x Ankit: A Farmer\u2019s Voice!",
-        url: 'https://www.youtube.com/embed/VIDEO_ID_2'
+        title: "Khetify x Ankit: A Farmer\u2019s Voice!"
     },
     {
-        title: "Mitti Se Mobile Tak \u2013 Dinkar Talks About Khetify",
-        url: 'https://www.youtube.com/embed/VIDEO_ID_3'
+        title: "Mitti Se Mobile Tak \u2013 Dinkar Talks About Khetify"
     }
 ];
 const Testimonial = ()=>{
@@ -22604,7 +22601,7 @@ const Testimonial = ()=>{
                 heading: "WHAT PEOPLE SAY"
             }, void 0, false, {
                 fileName: "src/components/Testimonial.jsx",
-                lineNumber: 23,
+                lineNumber: 20,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -22614,8 +22611,8 @@ const Testimonial = ()=>{
                         className: "video-card",
                         children: [
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("iframe", {
-                                width: "560",
-                                height: "315",
+                                width: 450,
+                                height: 250,
                                 src: "https://www.youtube.com/embed/iyPjWmsu-pg?si=X2MbI-y6WpASjRZr",
                                 title: "YouTube video player",
                                 frameBorder: "0",
@@ -22624,43 +22621,28 @@ const Testimonial = ()=>{
                                 allowFullScreen: true
                             }, void 0, false, {
                                 fileName: "src/components/Testimonial.jsx",
-                                lineNumber: 27,
+                                lineNumber: 25,
                                 columnNumber: 13
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                 children: videos[2].title
                             }, void 0, false, {
                                 fileName: "src/components/Testimonial.jsx",
-                                lineNumber: 28,
+                                lineNumber: 26,
                                 columnNumber: 13
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/Testimonial.jsx",
-                        lineNumber: 26,
-                        columnNumber: 9
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "khetify-logo-center",
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                            src: "/assets/khetify-logo.png",
-                            alt: "Khetify Logo"
-                        }, void 0, false, {
-                            fileName: "src/components/Testimonial.jsx",
-                            lineNumber: 32,
-                            columnNumber: 11
-                        }, undefined)
-                    }, void 0, false, {
-                        fileName: "src/components/Testimonial.jsx",
-                        lineNumber: 31,
+                        lineNumber: 24,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         className: "video-card",
                         children: [
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("iframe", {
-                                width: "560",
-                                height: "315",
+                                width: 450,
+                                height: 250,
                                 src: "https://www.youtube.com/embed/YFTQYDjdBX4?si=h5Ce_1TSTzKJalKl",
                                 title: "YouTube video player",
                                 frameBorder: "0",
@@ -22669,20 +22651,20 @@ const Testimonial = ()=>{
                                 allowFullScreen: true
                             }, void 0, false, {
                                 fileName: "src/components/Testimonial.jsx",
-                                lineNumber: 36,
+                                lineNumber: 30,
                                 columnNumber: 13
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                 children: videos[1].title
                             }, void 0, false, {
                                 fileName: "src/components/Testimonial.jsx",
-                                lineNumber: 37,
+                                lineNumber: 31,
                                 columnNumber: 13
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/Testimonial.jsx",
-                        lineNumber: 35,
+                        lineNumber: 29,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -22691,8 +22673,8 @@ const Testimonial = ()=>{
                             className: "video-card",
                             children: [
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("iframe", {
-                                    width: "560",
-                                    height: "315",
+                                    width: 450,
+                                    height: 250,
                                     src: "https://www.youtube.com/embed/5oJu9we2jrI?si=AYKfbTvJupbMuyrL",
                                     title: "YouTube video player",
                                     frameBorder: "0",
@@ -22701,37 +22683,67 @@ const Testimonial = ()=>{
                                     allowFullScreen: true
                                 }, void 0, false, {
                                     fileName: "src/components/Testimonial.jsx",
-                                    lineNumber: 42,
+                                    lineNumber: 37,
                                     columnNumber: 13
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                     children: videos[2].title
                                 }, void 0, false, {
                                     fileName: "src/components/Testimonial.jsx",
-                                    lineNumber: 43,
+                                    lineNumber: 38,
                                     columnNumber: 13
                                 }, undefined)
                             ]
                         }, void 0, true, {
                             fileName: "src/components/Testimonial.jsx",
-                            lineNumber: 41,
+                            lineNumber: 36,
                             columnNumber: 11
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/components/Testimonial.jsx",
-                        lineNumber: 40,
+                        lineNumber: 35,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "video-card",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("iframe", {
+                                width: 450,
+                                height: 250,
+                                src: "https://www.youtube.com/embed/iyPjWmsu-pg?si=X2MbI-y6WpASjRZr",
+                                title: "YouTube video player",
+                                frameBorder: "0",
+                                allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share",
+                                referrerPolicy: "strict-origin-when-cross-origin",
+                                allowFullScreen: true
+                            }, void 0, false, {
+                                fileName: "src/components/Testimonial.jsx",
+                                lineNumber: 43,
+                                columnNumber: 13
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: videos[2].title
+                            }, void 0, false, {
+                                fileName: "src/components/Testimonial.jsx",
+                                lineNumber: 44,
+                                columnNumber: 13
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/Testimonial.jsx",
+                        lineNumber: 42,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/Testimonial.jsx",
-                lineNumber: 25,
+                lineNumber: 22,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/components/Testimonial.jsx",
-        lineNumber: 22,
+        lineNumber: 19,
         columnNumber: 5
     }, undefined);
 };
@@ -22745,6 +22757,6 @@ $RefreshReg$(_c, "Testimonial");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","./Heading":"4IatN"}]},["d2FNE","96tIl"], "96tIl", "parcelRequire94c2", {}, null, null, "http://localhost:1234")
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","./Heading":"4IatN","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}]},["d2FNE","96tIl"], "96tIl", "parcelRequire94c2", {}, null, null, "http://localhost:1234")
 
 //# sourceMappingURL=Khetify-UI.08a11c70.js.map

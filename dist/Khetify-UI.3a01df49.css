@@ -419,4 +419,41 @@ body {
   transition: all .3s;
   scale: 1.02;
 }
+
+.testimonial-section {
+  background: url("https://res.cloudinary.com/depyc5ywg/image/upload/v1753162444/Khetify-bg-testimonial_1_ryja46.png") 0 0 / cover no-repeat;
+  padding: 100px 50px;
+}
+
+.testimonial-body {
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: start;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 120px auto 0;
+  display: grid;
+  position: relative;
+}
+
+.video-card {
+  background-color: #fff;
+  border: 3px solid #000;
+  border-radius: 12px;
+  max-width: 500px;
+  padding: 15px;
+  box-shadow: 0 4px 12px #000;
+}
+
+@media screen and (width <= 768px) {
+  .testimonial-body {
+    grid-template-columns: 1fr;
+    margin: 40px 20px;
+  }
+
+  .video-card, .video-card-ankit {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+}
 /*# sourceMappingURL=Khetify-UI.3a01df49.css.map */
