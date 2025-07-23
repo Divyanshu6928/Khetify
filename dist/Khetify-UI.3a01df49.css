@@ -444,6 +444,11 @@ body {
   box-shadow: 0 4px 12px #000;
 }
 
+.video-card:hover {
+  transition: all .5s;
+  scale: 1.03;
+}
+
 .video-card iframe {
   border-radius: 12px;
 }

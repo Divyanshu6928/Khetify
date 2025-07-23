@@ -696,53 +696,60 @@ var _testimonial = require("./src/components/Testimonial");
 var _testimonialDefault = parcelHelpers.interopDefault(_testimonial);
 var _contact = require("./src/components/Contact");
 var _contactDefault = parcelHelpers.interopDefault(_contact);
+var _footer = require("./src/components/Footer");
+var _footerDefault = parcelHelpers.interopDefault(_footer);
 const App = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headerDefault.default), {}, void 0, false, {
                 fileName: "App.jsx",
-                lineNumber: 16,
+                lineNumber: 17,
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _carouselDefault.default), {}, void 0, false, {
                 fileName: "App.jsx",
-                lineNumber: 17,
+                lineNumber: 18,
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _productsDefault.default), {}, void 0, false, {
                 fileName: "App.jsx",
-                lineNumber: 18,
+                lineNumber: 19,
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _servicesDefault.default), {}, void 0, false, {
                 fileName: "App.jsx",
-                lineNumber: 19,
+                lineNumber: 20,
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _shopDefault.default), {}, void 0, false, {
                 fileName: "App.jsx",
-                lineNumber: 20,
+                lineNumber: 21,
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _newsDefault.default), {}, void 0, false, {
                 fileName: "App.jsx",
-                lineNumber: 21,
+                lineNumber: 22,
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _testimonialDefault.default), {}, void 0, false, {
                 fileName: "App.jsx",
-                lineNumber: 22,
+                lineNumber: 23,
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _contactDefault.default), {}, void 0, false, {
                 fileName: "App.jsx",
-                lineNumber: 23,
+                lineNumber: 24,
+                columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _footerDefault.default), {}, void 0, false, {
+                fileName: "App.jsx",
+                lineNumber: 25,
                 columnNumber: 13
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "App.jsx",
-        lineNumber: 15,
+        lineNumber: 16,
         columnNumber: 9
     }, undefined);
 };
@@ -750,7 +757,7 @@ _c = App;
 const root = (0, _clientDefault.default).createRoot(document.getElementById("root"));
 root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(App, {}, void 0, false, {
     fileName: "App.jsx",
-    lineNumber: 29,
+    lineNumber: 31,
     columnNumber: 13
 }, undefined));
 var _c;
@@ -761,7 +768,7 @@ $RefreshReg$(_c, "App");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","react-dom/client":"hrvwu","./src/components/Header":"8BCUx","./src/components/Carousel":"hqTVY","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","./src/components/Products":"fVukA","./src/components/Services":"dqcYh","./src/components/Shop":"hYezB","./src/components/News":"3xz8R","./src/components/Testimonial":"1ysNr","./src/components/Contact":"d75GN"}],"dVPUn":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","react-dom/client":"hrvwu","./src/components/Header":"8BCUx","./src/components/Carousel":"hqTVY","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","./src/components/Products":"fVukA","./src/components/Services":"dqcYh","./src/components/Shop":"hYezB","./src/components/News":"3xz8R","./src/components/Testimonial":"1ysNr","./src/components/Contact":"d75GN","./src/components/Footer":"lU1xT"}],"dVPUn":[function(require,module,exports,__globalThis) {
 'use strict';
 module.exports = require("ee51401569654d91");
 
@@ -22911,6 +22918,36 @@ $RefreshReg$(_c, "Contact");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","./Heading":"4IatN","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}]},["d2FNE","96tIl"], "96tIl", "parcelRequire94c2", {}, null, null, "http://localhost:1234")
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","./Heading":"4IatN","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"lU1xT":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$cfa1 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$cfa1.init();
+var prevRefreshReg = globalThis.$RefreshReg$;
+var prevRefreshSig = globalThis.$RefreshSig$;
+$parcel$ReactRefreshHelpers$cfa1.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+const Footer = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {}, void 0, false, {
+        fileName: "src/components/Footer.jsx",
+        lineNumber: 5,
+        columnNumber: 5
+    }, undefined);
+};
+_c = Footer;
+exports.default = Footer;
+var _c;
+$RefreshReg$(_c, "Footer");
+
+  $parcel$ReactRefreshHelpers$cfa1.postlude(module);
+} finally {
+  globalThis.$RefreshReg$ = prevRefreshReg;
+  globalThis.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}]},["d2FNE","96tIl"], "96tIl", "parcelRequire94c2", {}, null, null, "http://localhost:1234")
 
 //# sourceMappingURL=Khetify-UI.08a11c70.js.map

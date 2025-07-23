@@ -8,6 +8,7 @@ import Shop from "./src/components/Shop";
 import News from "./src/components/News";
 import Testimonial from "./src/components/Testimonial";
 import Contact from "./src/components/Contact";
+import Footer from "./src/components/Footer";
 
 
 const App = () => {
@@ -21,6 +22,7 @@ const App = () => {
             <News />
             <Testimonial />
             <Contact />
+            <Footer />
         </div>
     );
 };
