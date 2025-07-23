@@ -13,7 +13,7 @@ const Carousel = () => {
               <div className="overlay-card bg-white p-4 rounded shadow">
                 <h4 className="carousel-card-title">{img.title}</h4>
                 <p>{img.description}</p>
-                <button className="btn btn-success">{img.buttonText}</button>
+                <button className="btn carousel-btn">{img.buttonText}</button>
               </div>
 
           </div>

@@ -18,7 +18,7 @@ const Contact = () => {
                     <input type="tel" placeholder="Mobile no. *" required className='form-control p-3'/>
                     <textarea placeholder="Any message" className='form-control p-3'></textarea>
                 </form>
-                <button className='btn btn-success mt-3 d-flex align-content-center justify-content-center w-50' type='submit'>Connect now !!</button>
+                <button className='btn btn-success contact-btn mt-3 d-flex align-content-center justify-content-center w-50' type='submit'>Connect now !!</button>
             </div>
         </div>
         
