@@ -28,14 +28,14 @@ const Testimonial = () => {
 
         <div className="video-card">
             <iframe width={450} height={250} src="https://www.youtube.com/embed/YFTQYDjdBX4?si=h5Ce_1TSTzKJalKl" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>          
-            <p>{videos[1].title}</p>
+            <p>{videos[0].title}</p>
         </div>
 
 
         <div className="bottom-video">
           <div className="video-card">
             <iframe width={450} height={250} src="https://www.youtube.com/embed/5oJu9we2jrI?si=AYKfbTvJupbMuyrL" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>            
-            <p>{videos[2].title}</p>
+            <p>{videos[1].title}</p>
           </div>
         </div>
 

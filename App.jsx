@@ -7,6 +7,7 @@ import Services from "./src/components/Services";
 import Shop from "./src/components/Shop";
 import News from "./src/components/News";
 import Testimonial from "./src/components/Testimonial";
+import Contact from "./src/components/Contact";
 
 
 const App = () => {
@@ -19,6 +20,7 @@ const App = () => {
             <Shop />
             <News />
             <Testimonial />
+            <Contact />
         </div>
     );
 };

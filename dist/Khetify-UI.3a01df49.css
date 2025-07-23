@@ -422,7 +422,6 @@ body {
 
 .testimonial-section {
   background: url("https://res.cloudinary.com/depyc5ywg/image/upload/v1753162444/Khetify-bg-testimonial_1_ryja46.png") 0 0 / cover no-repeat;
-  padding: 100px 50px;
 }
 
 .testimonial-body {
@@ -445,15 +444,81 @@ body {
   box-shadow: 0 4px 12px #000;
 }
 
+.video-card iframe {
+  border-radius: 12px;
+}
+
 @media screen and (width <= 768px) {
   .testimonial-body {
     grid-template-columns: 1fr;
     margin: 40px 20px;
   }
 
-  .video-card, .video-card-ankit {
+  .video-card {
     max-width: 100%;
     margin: 0 auto;
   }
+}
+
+.contact-section {
+  background: url("https://res.cloudinary.com/depyc5ywg/image/upload/v1753165013/Screenshot_2025-07-22_114617_cx9nta.png") 0 0 / cover no-repeat;
+  padding-top: 60px;
+}
+
+.contact-body {
+  justify-content: space-around;
+  display: flex;
+}
+
+.contact-body-text {
+  color: #fff;
+  text-shadow: -1px -1px #000, 1px -1px #000, -1px 1px #000, 1px 1px #000;
+  letter-spacing: 2px;
+  margin-top: 150px;
+  padding-bottom: 150px;
+  font-size: 5rem;
+  font-weight: 900;
+}
+
+.contact-form-body {
+  background: #fff;
+  border: 3px solid #000;
+  border-radius: 12px;
+  width: 600px;
+  height: 400px;
+  margin-top: 120px;
+  box-shadow: 8px 8px 15px #000;
+}
+
+.contact-form {
+  margin: 40px 20px 20px;
+}
+
+.get-in {
+  padding-left: 140px;
+}
+
+.contact-form input {
+  border: none;
+  border-bottom: 2px solid #000;
+  border-radius: 0;
+  max-width: 600px;
+}
+
+.contact-form textarea {
+  border: none;
+  border-bottom: 2px solid #000;
+  border-radius: 0;
+  max-width: 600px;
+  max-height: 100px;
+}
+
+.btn-success {
+  color: #fff;
+  background-color: #2f8132;
+  border: 3px solid #000;
+  border-radius: 12px;
+  margin-left: 160px;
+  font-weight: bold;
 }
 /*# sourceMappingURL=Khetify-UI.3a01df49.css.map */
