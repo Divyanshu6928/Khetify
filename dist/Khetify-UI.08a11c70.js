@@ -22938,15 +22938,95 @@ const Footer = ()=>{
             className: "footer-container",
             children: [
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "footer-col-1",
                     children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {}, void 0, false, {
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "mt-5",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                    src: "https://res.cloudinary.com/depyc5ywg/image/upload/v1752729663/Khetify_logo_square_frhx9m.png",
+                                    height: 80,
+                                    alt: "logo can't load",
+                                    className: "footer-logo"
+                                }, void 0, false, {
+                                    fileName: "src/components/Footer.jsx",
+                                    lineNumber: 9,
+                                    columnNumber: 21
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                    className: "footer-tagline",
+                                    children: "Modern Farming, Desi roots"
+                                }, void 0, false, {
+                                    fileName: "src/components/Footer.jsx",
+                                    lineNumber: 10,
+                                    columnNumber: 21
+                                }, undefined)
+                            ]
+                        }, void 0, true, {
                             fileName: "src/components/Footer.jsx",
                             lineNumber: 8,
                             columnNumber: 17
                         }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {}, void 0, false, {
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "about-us-footer mt-5",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                    className: "footer-about-us-heading",
+                                    children: "About Us"
+                                }, void 0, false, {
+                                    fileName: "src/components/Footer.jsx",
+                                    lineNumber: 13,
+                                    columnNumber: 21
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                    className: "footer-about-us-content",
+                                    children: "A smart agri-tech platform dedicated to empowering Indian farmers with innovative tools, real-time insights, and sustainable solutions for modern farming."
+                                }, void 0, false, {
+                                    fileName: "src/components/Footer.jsx",
+                                    lineNumber: 14,
+                                    columnNumber: 21
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: "footer-icon",
+                                    children: [
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                            className: "bi bi-twitter-x"
+                                        }, void 0, false, {
+                                            fileName: "src/components/Footer.jsx",
+                                            lineNumber: 16,
+                                            columnNumber: 25
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                            className: "bi bi-facebook"
+                                        }, void 0, false, {
+                                            fileName: "src/components/Footer.jsx",
+                                            lineNumber: 17,
+                                            columnNumber: 25
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                            className: "bi bi-instagram"
+                                        }, void 0, false, {
+                                            fileName: "src/components/Footer.jsx",
+                                            lineNumber: 18,
+                                            columnNumber: 25
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                            className: "bi bi-whatsapp"
+                                        }, void 0, false, {
+                                            fileName: "src/components/Footer.jsx",
+                                            lineNumber: 19,
+                                            columnNumber: 26
+                                        }, undefined)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/components/Footer.jsx",
+                                    lineNumber: 15,
+                                    columnNumber: 21
+                                }, undefined)
+                            ]
+                        }, void 0, true, {
                             fileName: "src/components/Footer.jsx",
-                            lineNumber: 11,
+                            lineNumber: 12,
                             columnNumber: 17
                         }, undefined)
                     ]
@@ -22955,14 +23035,90 @@ const Footer = ()=>{
                     lineNumber: 7,
                     columnNumber: 13
                 }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {}, void 0, false, {
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "footer-col-2",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                            className: "footer-col-2-heading",
+                            children: "Category"
+                        }, void 0, false, {
+                            fileName: "src/components/Footer.jsx",
+                            lineNumber: 24,
+                            columnNumber: 17
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                    children: "Home"
+                                }, void 0, false, {
+                                    fileName: "src/components/Footer.jsx",
+                                    lineNumber: 26,
+                                    columnNumber: 21
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                    children: "About US"
+                                }, void 0, false, {
+                                    fileName: "src/components/Footer.jsx",
+                                    lineNumber: 27,
+                                    columnNumber: 21
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                    children: "Shop"
+                                }, void 0, false, {
+                                    fileName: "src/components/Footer.jsx",
+                                    lineNumber: 28,
+                                    columnNumber: 21
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                    children: "Services !!"
+                                }, void 0, false, {
+                                    fileName: "src/components/Footer.jsx",
+                                    lineNumber: 29,
+                                    columnNumber: 21
+                                }, undefined)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/Footer.jsx",
+                            lineNumber: 25,
+                            columnNumber: 17
+                        }, undefined)
+                    ]
+                }, void 0, true, {
                     fileName: "src/components/Footer.jsx",
-                    lineNumber: 15,
+                    lineNumber: 23,
                     columnNumber: 13
                 }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {}, void 0, false, {
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "footer-col-3",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                            className: "bi bi-globe community-btn",
+                            children: " Join the community"
+                        }, void 0, false, {
+                            fileName: "src/components/Footer.jsx",
+                            lineNumber: 33,
+                            columnNumber: 17
+                        }, undefined),
+                        " ",
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                            fileName: "src/components/Footer.jsx",
+                            lineNumber: 33,
+                            columnNumber: 92
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                            src: "https://res.cloudinary.com/depyc5ywg/image/upload/v1752729663/Khetify_logo_square_frhx9m.png",
+                            height: 200,
+                            alt: "",
+                            className: "footer-img-logo"
+                        }, void 0, false, {
+                            fileName: "src/components/Footer.jsx",
+                            lineNumber: 34,
+                            columnNumber: 17
+                        }, undefined)
+                    ]
+                }, void 0, true, {
                     fileName: "src/components/Footer.jsx",
-                    lineNumber: 18,
+                    lineNumber: 32,
                     columnNumber: 13
                 }, undefined)
             ]

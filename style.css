@@ -1,5 +1,6 @@
 body{
     font-family: Montserrat;
+    background-color: #2f8132;
 }
 
 /* Navbar - container */
@@ -627,4 +628,91 @@ body{
 /* Footer-section starts */
 .footer-section{
   background-color: #000000;
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
+  margin-top: -60px;
+}
+
+.footer-container{
+  display: flex;
+  justify-content: space-evenly;
+  /* margin-top: 50px; */
+}
+
+.footer-tagline{
+  font-weight: bold;
+  color: #ffffff;
+  margin-top: 10px;
+}
+
+.footer-logo{
+  border-radius: 10px;
+}
+
+.about-us-footer{
+
+}
+
+.footer-about-us-heading{
+  font-weight: 800;
+  font-size: 25px;
+  color: #11E635;
+}
+
+.footer-about-us-content{
+  max-width: 400px;
+  color: white;
+  font-weight: 600;
+}
+
+.footer-icon{
+  color: #11E635;
+  display: flex;
+  font-size: 20px;
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.footer-col-2 ul{
+  list-style: none;
+}
+
+.footer-col-2 li{
+  color: white;
+  font-weight: 600;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.footer-col-2-heading{
+  color: #11E635;
+  font-weight: 700;
+  font-size: 25px;
+  margin-left: 30px;
+}
+
+.community-btn{
+  color: white;
+  background-color: #11E635;
+  border-radius: 8px;
+  padding: 10px;
+  border: none;
+  font-weight: 700;
+}
+
+
+.footer-img-logo{
+  margin-top: 80px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.footer-col-1{
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.footer-col-2,.footer-col-3{
+  margin-top: 60px;
+  margin-bottom: 120px;
 }
