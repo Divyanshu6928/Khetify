@@ -80,6 +80,10 @@ body {
   transform: scale(1.05);
 }
 
+.carousel-img {
+  transition: all .5s;
+}
+
 .heading-container {
   justify-content: center;
   align-items: center;

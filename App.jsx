@@ -1,29 +1,19 @@
 import React from "react";
 import ReactDOM from "react-dom/client"
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./src/pages/Home";
 import Header from "./src/components/Header"
-import Carousel from "./src/components/Carousel";
-import Products from "./src/components/Products";
-import Services from "./src/components/Services";
-import Shop from "./src/components/Shop";
-import News from "./src/components/News";
-import Testimonial from "./src/components/Testimonial";
-import Contact from "./src/components/Contact";
-import Footer from "./src/components/Footer";
 
 
 const App = () => {
     return (
-        <div>
+        <BrowserRouter>
             <Header />
-            <Carousel />
-            <Products />
-            <Services />
-            <Shop />
-            <News />
-            <Testimonial />
-            <Contact />
-            <Footer />
-        </div>
+            <Routes>
+                <Route path="/" element={<Home />} /> 
+                
+            </Routes>
+        </BrowserRouter>
     );
 };
 

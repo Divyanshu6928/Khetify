@@ -1,4 +1,6 @@
 import logo from "../../public/assets/Khetify-logo.png"
+import { Link } from "react-router-dom";
+
 
 const Header = () => {
     return(
@@ -8,7 +10,7 @@ const Header = () => {
             </div>
             <div className="nav-mid">
                 <ul className="nav-mid-list">
-                    <li>Home</li>
+                    <li className="text-white text-decoration-none"><Link to="/" style={{ color: "white", textDecoration: "none" }}>Home</Link></li>
                     <li>About Us</li>
                     <li>Shop</li>
                     <li>Services</li>

@@ -1,0 +1,76 @@
+@media (max-width: 1024px) {
+  .overlay-card {
+    top: 70%;
+    left: 5%;
+    padding: 1.8rem;
+    max-width: 400px;
+  }
+
+  .carousel-img{
+    height: 400px;
+    transition: 0.5s;
+  }
+
+  .overlay-card h4 {
+    font-size: 1.4rem;
+  }
+
+  .overlay-card p {
+    font-size: 0.95rem;
+  }
+
+  .overlay-card button {
+    padding: 0.5rem 1rem;
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .overlay-card {
+    top: 75%;
+    padding: 1.5rem;
+    left: 5%;
+    max-width: 250px;
+  }
+
+  .carousel-img{
+    height: 300px;
+    transition: 0.5s;
+  }
+
+  .overlay-card h4 {
+    font-size: 1.3rem;
+  }
+
+  .overlay-card p {
+    font-size: 0.9rem;
+  }
+
+  .overlay-card button {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .overlay-card {
+    top: 78%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    padding: 1.2rem;
+    border-radius: 20px;
+  }
+
+  .overlay-card h4 {
+    font-size: 1.2rem;
+  }
+
+  .overlay-card p {
+    font-size: 0.85rem;
+  }
+
+  .overlay-card button {
+    padding: 0.45rem 0.9rem;
+    font-size: 0.85rem;
+  }
+}

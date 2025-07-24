@@ -1,4 +1,5 @@
 import React from "react";
+import '../../responsive.css'
 import images from "../../data/imageData";
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'; 
 
@@ -8,7 +9,7 @@ const Carousel = () => {
       <div className="carousel-inner">
         {images.map((img, index) => (
           <div className={`carousel-item ${index === 0 ? "active" : ""}`} key={img.public_id}>
-            <img src={img.secure_url} className="d-block w-100" alt={`Slide ${index + 1}`} height={800}/>
+            <img src={img.secure_url} className="d-block w-100 carousel-img" alt={`Slide ${index + 1}`} height={800}/>
 
               <div className="overlay-card bg-white p-4 rounded shadow">
                 <h4 className="carousel-card-title">{img.title}</h4>
