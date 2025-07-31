@@ -11,7 +11,7 @@ const Header = () => {
             <div className="nav-mid">
                 <ul className="nav-mid-list">
                     <li className="text-white text-decoration-none"><Link to="/" style={{ color: "white", textDecoration: "none" }}>Home</Link></li>
-                    <li>About Us</li>
+                    <li className="text-white text-decoration-none"><Link to="/about-us" style={{ color: "white", textDecoration: "none" }}>About Us</Link></li>
                     <li>Shop</li>
                     <li>Services</li>
                 </ul>

@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client"
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./src/pages/Home";
+import AboutUs from "./src/pages/AboutUs";
 import Header from "./src/components/Header"
 
 
@@ -11,6 +12,7 @@ const App = () => {
             <Header />
             <Routes>
                 <Route path="/" element={<Home />} /> 
+                <Route path="/about-us" element={<AboutUs />} /> 
                 
             </Routes>
         </BrowserRouter>

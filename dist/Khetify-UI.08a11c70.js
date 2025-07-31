@@ -683,6 +683,8 @@ var _clientDefault = parcelHelpers.interopDefault(_client);
 var _reactRouterDom = require("react-router-dom");
 var _home = require("./src/pages/Home");
 var _homeDefault = parcelHelpers.interopDefault(_home);
+var _aboutUs = require("./src/pages/AboutUs");
+var _aboutUsDefault = parcelHelpers.interopDefault(_aboutUs);
 var _header = require("./src/components/Header");
 var _headerDefault = parcelHelpers.interopDefault(_header);
 const App = ()=>{
@@ -690,31 +692,45 @@ const App = ()=>{
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headerDefault.default), {}, void 0, false, {
                 fileName: "App.jsx",
-                lineNumber: 11,
+                lineNumber: 12,
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Routes), {
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
-                    path: "/",
-                    element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _homeDefault.default), {}, void 0, false, {
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                        path: "/",
+                        element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _homeDefault.default), {}, void 0, false, {
+                            fileName: "App.jsx",
+                            lineNumber: 14,
+                            columnNumber: 42
+                        }, void 0)
+                    }, void 0, false, {
                         fileName: "App.jsx",
-                        lineNumber: 13,
-                        columnNumber: 42
-                    }, void 0)
-                }, void 0, false, {
-                    fileName: "App.jsx",
-                    lineNumber: 13,
-                    columnNumber: 17
-                }, undefined)
-            }, void 0, false, {
+                        lineNumber: 14,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                        path: "/about-us",
+                        element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _aboutUsDefault.default), {}, void 0, false, {
+                            fileName: "App.jsx",
+                            lineNumber: 15,
+                            columnNumber: 50
+                        }, void 0)
+                    }, void 0, false, {
+                        fileName: "App.jsx",
+                        lineNumber: 15,
+                        columnNumber: 17
+                    }, undefined)
+                ]
+            }, void 0, true, {
                 fileName: "App.jsx",
-                lineNumber: 12,
+                lineNumber: 13,
                 columnNumber: 13
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "App.jsx",
-        lineNumber: 10,
+        lineNumber: 11,
         columnNumber: 9
     }, undefined);
 };
@@ -722,7 +738,7 @@ _c = App;
 const root = (0, _clientDefault.default).createRoot(document.getElementById("root"));
 root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(App, {}, void 0, false, {
     fileName: "App.jsx",
-    lineNumber: 21,
+    lineNumber: 23,
     columnNumber: 13
 }, undefined));
 var _c;
@@ -733,7 +749,7 @@ $RefreshReg$(_c, "App");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","react-dom/client":"hrvwu","./src/components/Header":"8BCUx","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","react-router-dom":"61z4w","./src/pages/Home":"cORsp"}],"dVPUn":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","react-dom/client":"hrvwu","./src/components/Header":"8BCUx","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","react-router-dom":"61z4w","./src/pages/Home":"cORsp","./src/pages/AboutUs":"39wyk"}],"dVPUn":[function(require,module,exports,__globalThis) {
 'use strict';
 module.exports = require("ee51401569654d91");
 
@@ -16192,7 +16208,19 @@ const Header = ()=>{
                             columnNumber: 21
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                            children: "About Us"
+                            className: "text-white text-decoration-none",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                to: "/about-us",
+                                style: {
+                                    color: "white",
+                                    textDecoration: "none"
+                                },
+                                children: "About Us"
+                            }, void 0, false, {
+                                fileName: "src/components/Header.jsx",
+                                lineNumber: 14,
+                                columnNumber: 69
+                            }, undefined)
                         }, void 0, false, {
                             fileName: "src/components/Header.jsx",
                             lineNumber: 14,
@@ -30439,6 +30467,151 @@ var _c;
 $RefreshReg$(_c, "Footer");
 
   $parcel$ReactRefreshHelpers$cfa1.postlude(module);
+} finally {
+  globalThis.$RefreshReg$ = prevRefreshReg;
+  globalThis.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"39wyk":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$c2f6 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$c2f6.init();
+var prevRefreshReg = globalThis.$RefreshReg$;
+var prevRefreshSig = globalThis.$RefreshSig$;
+$parcel$ReactRefreshHelpers$c2f6.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _header = require("../components/Header");
+var _headerDefault = parcelHelpers.interopDefault(_header);
+var _basicCard = require("../components/BasicCard");
+var _basicCardDefault = parcelHelpers.interopDefault(_basicCard);
+const AboutUs = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "about-body",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headerDefault.default), {}, void 0, false, {
+                fileName: "src/pages/AboutUs.jsx",
+                lineNumber: 8,
+                columnNumber: 9
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "about-main-container",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                        src: "https://res.cloudinary.com/depyc5ywg/image/upload/v1753932692/About-Us-img_jcl44p.png",
+                        alt: "",
+                        width: 1521,
+                        className: "about-img"
+                    }, void 0, false, {
+                        fileName: "src/pages/AboutUs.jsx",
+                        lineNumber: 10,
+                        columnNumber: 13
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "about-text",
+                        children: "ABOUT KHETIFY"
+                    }, void 0, false, {
+                        fileName: "src/pages/AboutUs.jsx",
+                        lineNumber: 11,
+                        columnNumber: 13
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/pages/AboutUs.jsx",
+                lineNumber: 9,
+                columnNumber: 9
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "about-content",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _basicCardDefault.default), {}, void 0, false, {
+                    fileName: "src/pages/AboutUs.jsx",
+                    lineNumber: 14,
+                    columnNumber: 13
+                }, undefined)
+            }, void 0, false, {
+                fileName: "src/pages/AboutUs.jsx",
+                lineNumber: 13,
+                columnNumber: 9
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/pages/AboutUs.jsx",
+        lineNumber: 7,
+        columnNumber: 5
+    }, undefined);
+};
+_c = AboutUs;
+exports.default = AboutUs;
+var _c;
+$RefreshReg$(_c, "AboutUs");
+
+  $parcel$ReactRefreshHelpers$c2f6.postlude(module);
+} finally {
+  globalThis.$RefreshReg$ = prevRefreshReg;
+  globalThis.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"dVPUn","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","react":"jMk1U","../components/Header":"8BCUx","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","../components/BasicCard":"1hE1Z"}],"1hE1Z":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$cc05 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$cc05.init();
+var prevRefreshReg = globalThis.$RefreshReg$;
+var prevRefreshSig = globalThis.$RefreshSig$;
+$parcel$ReactRefreshHelpers$cc05.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+const data = [
+    {
+        "card_header": "\uD83D\uDE9C Who We Are??",
+        "card_body": "Khetify is a farmer-first initiative dedicated to modernizing agriculture while preserving its roots. We understand the challenges faced by Indian farmers and bring practical, tech-driven solutions to their fields. From resource optimization to real-time insights, Khetify is here to revolutionize rural agriculture with a human touch."
+    }
+];
+const BasicCard = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "basic-card",
+        children: data.map((item, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "basic-card",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "basic-heading",
+                        children: item.card_header
+                    }, void 0, false, {
+                        fileName: "src/components/BasicCard.jsx",
+                        lineNumber: 14,
+                        columnNumber: 11
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "basic-body",
+                        children: item.card_body
+                    }, void 0, false, {
+                        fileName: "src/components/BasicCard.jsx",
+                        lineNumber: 15,
+                        columnNumber: 11
+                    }, undefined)
+                ]
+            }, index, true, {
+                fileName: "src/components/BasicCard.jsx",
+                lineNumber: 13,
+                columnNumber: 9
+            }, undefined))
+    }, void 0, false, {
+        fileName: "src/components/BasicCard.jsx",
+        lineNumber: 11,
+        columnNumber: 5
+    }, undefined);
+};
+_c = BasicCard;
+exports.default = BasicCard;
+var _c;
+$RefreshReg$(_c, "BasicCard");
+
+  $parcel$ReactRefreshHelpers$cc05.postlude(module);
 } finally {
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;

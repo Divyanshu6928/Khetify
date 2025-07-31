@@ -1,5 +1,6 @@
 body{
     background-color: #2f8132;
+    font-family: montserrat ;
 }
 
 /* Navbar - container */
@@ -12,7 +13,7 @@ body{
     background: #4a774d;
     font-weight: bold;
     color: white;
-    z-index: 1;
+    z-index: 10;
     border: 2px solid black;
     position: absolute;
     width: 90%;
@@ -719,4 +720,53 @@ body{
 .footer-col-2,.footer-col-3{
   margin-top: 60px;
   margin-bottom: 120px;
+}
+/* About-page */
+
+.about-main-container {
+  position: relative;
+  overflow: hidden;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.2); /* for subtle depth */
+  z-index: 2;
+}
+
+.about-img {
+  width: 100%;
+  height: auto;
+  opacity: 0.6;
+  display: block;
+  box-shadow: 5px 10px 10px black;
+}
+
+.about-text {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 60px;
+  position: absolute;
+  top: 300px;
+  left: 500px;
+  z-index: 3;
+}
+
+.about-content {
+  background-color: #2cbf5d;
+  height: 900px;
+  z-index: 1;
+  /* position: relative; */
+  /* margin-top: -10px; */
+}
+
+.basic-heading{
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+.basic-card{
+  background-color: #ffffff;
+  width: 750px;
+  margin: 30px;
 }
