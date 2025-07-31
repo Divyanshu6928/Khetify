@@ -30488,58 +30488,60 @@ var _header = require("../components/Header");
 var _headerDefault = parcelHelpers.interopDefault(_header);
 var _basicCard = require("../components/BasicCard");
 var _basicCardDefault = parcelHelpers.interopDefault(_basicCard);
+var _heading = require("../components/Heading");
+var _headingDefault = parcelHelpers.interopDefault(_heading);
 const AboutUs = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "about-body",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headerDefault.default), {}, void 0, false, {
                 fileName: "src/pages/AboutUs.jsx",
-                lineNumber: 8,
-                columnNumber: 9
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "about-main-container",
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                        src: "https://res.cloudinary.com/depyc5ywg/image/upload/v1753932692/About-Us-img_jcl44p.png",
-                        alt: "",
-                        width: 1521,
-                        className: "about-img"
-                    }, void 0, false, {
-                        fileName: "src/pages/AboutUs.jsx",
-                        lineNumber: 10,
-                        columnNumber: 13
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                        className: "about-text",
-                        children: "ABOUT KHETIFY"
-                    }, void 0, false, {
-                        fileName: "src/pages/AboutUs.jsx",
-                        lineNumber: 11,
-                        columnNumber: 13
-                    }, undefined)
-                ]
-            }, void 0, true, {
-                fileName: "src/pages/AboutUs.jsx",
                 lineNumber: 9,
                 columnNumber: 9
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "about-content",
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _basicCardDefault.default), {}, void 0, false, {
-                    fileName: "src/pages/AboutUs.jsx",
-                    lineNumber: 14,
-                    columnNumber: 13
-                }, undefined)
+                className: "about-main",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                        src: "https://res.cloudinary.com/depyc5ywg/image/upload/v1753932692/About-Us-img_jcl44p.png",
+                        alt: "",
+                        width: 1520,
+                        srcset: ""
+                    }, void 0, false, {
+                        fileName: "src/pages/AboutUs.jsx",
+                        lineNumber: 11,
+                        columnNumber: 11
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "about-khetify",
+                        children: "ABOUT KHETIFY"
+                    }, void 0, false, {
+                        fileName: "src/pages/AboutUs.jsx",
+                        lineNumber: 12,
+                        columnNumber: 11
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/pages/AboutUs.jsx",
+                lineNumber: 10,
+                columnNumber: 9
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _basicCardDefault.default), {}, void 0, false, {
+                fileName: "src/pages/AboutUs.jsx",
+                lineNumber: 15,
+                columnNumber: 9
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headingDefault.default), {
+                heading: "WHAT WE OFFER"
             }, void 0, false, {
                 fileName: "src/pages/AboutUs.jsx",
-                lineNumber: 13,
+                lineNumber: 16,
                 columnNumber: 9
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/pages/AboutUs.jsx",
-        lineNumber: 7,
+        lineNumber: 8,
         columnNumber: 5
     }, undefined);
 };
@@ -30553,7 +30555,7 @@ $RefreshReg$(_c, "AboutUs");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","react":"jMk1U","../components/Header":"8BCUx","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","../components/BasicCard":"1hE1Z"}],"1hE1Z":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","../components/Header":"8BCUx","../components/BasicCard":"1hE1Z","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","../components/Heading":"4IatN"}],"1hE1Z":[function(require,module,exports,__globalThis) {
 var $parcel$ReactRefreshHelpers$cc05 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 $parcel$ReactRefreshHelpers$cc05.init();
 var prevRefreshReg = globalThis.$RefreshReg$;
@@ -30568,22 +30570,22 @@ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 const data = [
     {
-        "card_header": "\uD83D\uDE9C Who We Are??",
+        "card_head": "\uD83D\uDE9C Who We Are??",
         "card_body": "Khetify is a farmer-first initiative dedicated to modernizing agriculture while preserving its roots. We understand the challenges faced by Indian farmers and bring practical, tech-driven solutions to their fields. From resource optimization to real-time insights, Khetify is here to revolutionize rural agriculture with a human touch."
     }
 ];
 const BasicCard = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "basic-card",
+        className: "card-container",
         children: data.map((item, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 className: "basic-card",
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                         className: "basic-heading",
-                        children: item.card_header
+                        children: item.card_head
                     }, void 0, false, {
                         fileName: "src/components/BasicCard.jsx",
-                        lineNumber: 14,
+                        lineNumber: 15,
                         columnNumber: 11
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -30591,18 +30593,18 @@ const BasicCard = ()=>{
                         children: item.card_body
                     }, void 0, false, {
                         fileName: "src/components/BasicCard.jsx",
-                        lineNumber: 15,
+                        lineNumber: 16,
                         columnNumber: 11
                     }, undefined)
                 ]
             }, index, true, {
                 fileName: "src/components/BasicCard.jsx",
-                lineNumber: 13,
+                lineNumber: 14,
                 columnNumber: 9
             }, undefined))
     }, void 0, false, {
         fileName: "src/components/BasicCard.jsx",
-        lineNumber: 11,
+        lineNumber: 12,
         columnNumber: 5
     }, undefined);
 };

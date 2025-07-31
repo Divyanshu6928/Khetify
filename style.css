@@ -723,50 +723,39 @@ body{
 }
 /* About-page */
 
-.about-main-container {
-  position: relative;
-  overflow: hidden;
-  border-bottom-left-radius: 30px;
-  border-bottom-right-radius: 30px;
-  box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.2); /* for subtle depth */
-  z-index: 2;
-}
-
-.about-img {
-  width: 100%;
+.about-body{
+  background: #2cbf5d;
   height: auto;
-  opacity: 0.6;
-  display: block;
-  box-shadow: 5px 10px 10px black;
 }
 
-.about-text {
-  color: #ffffff;
+.about-khetify{
   font-weight: bold;
-  font-size: 60px;
+  font-size: 50px;
+  color: #ffffff;
   position: absolute;
-  top: 300px;
-  left: 500px;
-  z-index: 3;
+  top: 330;
+  left: 550;
 }
 
-.about-content {
-  background-color: #2cbf5d;
-  height: 900px;
-  z-index: 1;
-  /* position: relative; */
-  /* margin-top: -10px; */
+.card-container{
+  margin: 100px;
+  margin-left: 400px;
+  background-color: #fff;
+  width: 650px;
+  text-align: center;
+  padding: 20px;
+  border: 3px solid black;
+  border-radius: 12px;
+  box-shadow: 10px 6px 20px black;
 }
 
 .basic-heading{
-  text-align: center;
-  font-weight: bold;
-  font-size: 25px;
-  margin-top: 10px;
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 40px;
 }
 
-.basic-card{
-  background-color: #ffffff;
-  width: 750px;
-  margin: 30px;
+.basic-body{
+  font-size: 15px;
+  font-weight: 600;
 }
