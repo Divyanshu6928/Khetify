@@ -1,4 +1,4 @@
-const productDetails = [
+export const productDetails = [
   {
     img_url: "https://res.cloudinary.com/depyc5ywg/image/upload/v1752847647/Soil_testing-Photoroom_1_d6bhhn.png",
     title: "Soil Health Management",
@@ -16,4 +16,33 @@ const productDetails = [
   }
 ];
 
-export default productDetails; 
+export const AboutCard = [
+  {
+    img_url : "https://res.cloudinary.com/depyc5ywg/image/upload/v1753955419/offer1_hj5wws.png",
+    title : "Soil Testing Services",
+    description : "Get accurate soil health reports and several recommendations for better crop yield."
+  },
+  {
+    img_url : "https://res.cloudinary.com/depyc5ywg/image/upload/v1753955419/offer2_pmdjf3.png",
+    title : "AI Crop Health Scanner",
+    description : "Just upload a photo of your crop – our AI instantly identifies diseases and suggests treatments."
+  },
+  {
+    img_url : "https://res.cloudinary.com/depyc5ywg/image/upload/v1753955419/offer3_z6q3jn.png",
+    title : "IoT Water Management",
+    description : "Monitor and control your irrigation systems remotely using smart IoT dashboards."
+  },
+  {
+    img_url : "https://res.cloudinary.com/depyc5ywg/image/upload/v1753955420/offer4_htnmzb.png",
+    title : "Data-Driven Advisory",
+    description : "From sowing to harvesting – make informed decisions based on weather, market, and crop data."
+  },
+];
+
+export const offerDetails = [
+  {
+    img_url : "https://res.cloudinary.com/depyc5ywg/image/upload/v1753955419/offer1_hj5wws.png",
+    title : "ABCDE",
+    description : "hello ji"
+  },  
+]

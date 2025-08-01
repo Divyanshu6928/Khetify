@@ -29198,7 +29198,6 @@ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 // import Heading from './Heading';
 var _productDetails = require("../../data/productDetails");
-var _productDetailsDefault = parcelHelpers.interopDefault(_productDetails);
 var _heading = require("./Heading");
 var _headingDefault = parcelHelpers.interopDefault(_heading);
 const ProductCards = ()=>{
@@ -29207,7 +29206,7 @@ const ProductCards = ()=>{
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 className: "product-container",
-                children: (0, _productDetailsDefault.default).map((card, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                children: (0, _productDetails.productDetails).map((card, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         className: "product-card",
                         children: [
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -29303,6 +29302,9 @@ $RefreshReg$(_c, "ProductCards");
 },{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","../../data/productDetails":"cz9qX","./Heading":"4IatN","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"cz9qX":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "productDetails", ()=>productDetails);
+parcelHelpers.export(exports, "AboutCard", ()=>AboutCard);
+parcelHelpers.export(exports, "offerDetails", ()=>offerDetails);
 const productDetails = [
     {
         img_url: "https://res.cloudinary.com/depyc5ywg/image/upload/v1752847647/Soil_testing-Photoroom_1_d6bhhn.png",
@@ -29320,7 +29322,35 @@ const productDetails = [
         description: "Our platform offers crop diversification recommendations tailored to weather patterns, soil type, and market prices."
     }
 ];
-exports.default = productDetails;
+const AboutCard = [
+    {
+        img_url: "https://res.cloudinary.com/depyc5ywg/image/upload/v1753955419/offer1_hj5wws.png",
+        title: "Soil Testing Services",
+        description: "Get accurate soil health reports and several recommendations for better crop yield."
+    },
+    {
+        img_url: "https://res.cloudinary.com/depyc5ywg/image/upload/v1753955419/offer2_pmdjf3.png",
+        title: "AI Crop Health Scanner",
+        description: "Just upload a photo of your crop \u2013 our AI instantly identifies diseases and suggests treatments."
+    },
+    {
+        img_url: "https://res.cloudinary.com/depyc5ywg/image/upload/v1753955419/offer3_z6q3jn.png",
+        title: "IoT Water Management",
+        description: "Monitor and control your irrigation systems remotely using smart IoT dashboards."
+    },
+    {
+        img_url: "https://res.cloudinary.com/depyc5ywg/image/upload/v1753955420/offer4_htnmzb.png",
+        title: "Data-Driven Advisory",
+        description: "From sowing to harvesting \u2013 make informed decisions based on weather, market, and crop data."
+    }
+];
+const offerDetails = [
+    {
+        img_url: "https://res.cloudinary.com/depyc5ywg/image/upload/v1753955419/offer1_hj5wws.png",
+        title: "ABCDE",
+        description: "hello ji"
+    }
+];
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"4IatN":[function(require,module,exports,__globalThis) {
 var $parcel$ReactRefreshHelpers$fae5 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
@@ -30490,13 +30520,15 @@ var _basicCard = require("../components/BasicCard");
 var _basicCardDefault = parcelHelpers.interopDefault(_basicCard);
 var _heading = require("../components/Heading");
 var _headingDefault = parcelHelpers.interopDefault(_heading);
+var _offerCard = require("../components/OfferCard");
+var _offerCardDefault = parcelHelpers.interopDefault(_offerCard);
 const AboutUs = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "about-body",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headerDefault.default), {}, void 0, false, {
                 fileName: "src/pages/AboutUs.jsx",
-                lineNumber: 9,
+                lineNumber: 11,
                 columnNumber: 9
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30505,11 +30537,10 @@ const AboutUs = ()=>{
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                         src: "https://res.cloudinary.com/depyc5ywg/image/upload/v1753932692/About-Us-img_jcl44p.png",
                         alt: "",
-                        width: 1520,
-                        srcset: ""
+                        width: 1520
                     }, void 0, false, {
                         fileName: "src/pages/AboutUs.jsx",
-                        lineNumber: 11,
+                        lineNumber: 13,
                         columnNumber: 11
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -30517,31 +30548,36 @@ const AboutUs = ()=>{
                         children: "ABOUT KHETIFY"
                     }, void 0, false, {
                         fileName: "src/pages/AboutUs.jsx",
-                        lineNumber: 12,
+                        lineNumber: 14,
                         columnNumber: 11
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/pages/AboutUs.jsx",
-                lineNumber: 10,
+                lineNumber: 12,
                 columnNumber: 9
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _basicCardDefault.default), {}, void 0, false, {
                 fileName: "src/pages/AboutUs.jsx",
-                lineNumber: 15,
+                lineNumber: 17,
                 columnNumber: 9
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headingDefault.default), {
                 heading: "WHAT WE OFFER"
             }, void 0, false, {
                 fileName: "src/pages/AboutUs.jsx",
-                lineNumber: 16,
+                lineNumber: 19,
+                columnNumber: 9
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _offerCardDefault.default), {}, void 0, false, {
+                fileName: "src/pages/AboutUs.jsx",
+                lineNumber: 21,
                 columnNumber: 9
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/pages/AboutUs.jsx",
-        lineNumber: 8,
+        lineNumber: 10,
         columnNumber: 5
     }, undefined);
 };
@@ -30555,7 +30591,7 @@ $RefreshReg$(_c, "AboutUs");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","../components/Header":"8BCUx","../components/BasicCard":"1hE1Z","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","../components/Heading":"4IatN"}],"1hE1Z":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","../components/Header":"8BCUx","../components/BasicCard":"1hE1Z","../components/Heading":"4IatN","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","../components/OfferCard":"fxHnf"}],"1hE1Z":[function(require,module,exports,__globalThis) {
 var $parcel$ReactRefreshHelpers$cc05 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 $parcel$ReactRefreshHelpers$cc05.init();
 var prevRefreshReg = globalThis.$RefreshReg$;
@@ -30618,6 +30654,112 @@ $RefreshReg$(_c, "BasicCard");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}]},["d2FNE","96tIl"], "96tIl", "parcelRequire94c2", {}, null, null, "http://localhost:1234")
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"fxHnf":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$f33a = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$f33a.init();
+var prevRefreshReg = globalThis.$RefreshReg$;
+var prevRefreshSig = globalThis.$RefreshSig$;
+$parcel$ReactRefreshHelpers$f33a.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _productDetails = require("../../data/productDetails");
+const OfferCard = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "product-card-container",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "product-container",
+                children: (0, _productDetails.offerDetails).map((card, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "product-card",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                src: card.img_url,
+                                alt: card.title,
+                                className: "product-image"
+                            }, void 0, false, {
+                                fileName: "src/components/OfferCard.jsx",
+                                lineNumber: 11,
+                                columnNumber: 17
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "product-content",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                                        className: "product-title",
+                                        children: card.title
+                                    }, void 0, false, {
+                                        fileName: "src/components/OfferCard.jsx",
+                                        lineNumber: 13,
+                                        columnNumber: 19
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                        className: "product-description",
+                                        children: card.description
+                                    }, void 0, false, {
+                                        fileName: "src/components/OfferCard.jsx",
+                                        lineNumber: 14,
+                                        columnNumber: 19
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/OfferCard.jsx",
+                                lineNumber: 12,
+                                columnNumber: 17
+                            }, undefined)
+                        ]
+                    }, index, true, {
+                        fileName: "src/components/OfferCard.jsx",
+                        lineNumber: 10,
+                        columnNumber: 15
+                    }, undefined))
+            }, void 0, false, {
+                fileName: "src/components/OfferCard.jsx",
+                lineNumber: 8,
+                columnNumber: 11
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "youtube-ad",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("iframe", {
+                    width: "560",
+                    height: "315",
+                    src: "https://www.youtube.com/embed/6AmTYvlGoaI?si=T-e_ttR6kSawAqi6",
+                    title: "YouTube video player",
+                    frameBorder: "0",
+                    allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share",
+                    referrerPolicy: "strict-origin-when-cross-origin",
+                    allowFullScreen: true
+                }, void 0, false, {
+                    fileName: "src/components/OfferCard.jsx",
+                    lineNumber: 20,
+                    columnNumber: 13
+                }, undefined)
+            }, void 0, false, {
+                fileName: "src/components/OfferCard.jsx",
+                lineNumber: 19,
+                columnNumber: 11
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/components/OfferCard.jsx",
+        lineNumber: 6,
+        columnNumber: 5
+    }, undefined);
+};
+_c = OfferCard;
+exports.default = OfferCard;
+var _c;
+$RefreshReg$(_c, "OfferCard");
+
+  $parcel$ReactRefreshHelpers$f33a.postlude(module);
+} finally {
+  globalThis.$RefreshReg$ = prevRefreshReg;
+  globalThis.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","../../data/productDetails":"cz9qX"}]},["d2FNE","96tIl"], "96tIl", "parcelRequire94c2", {}, null, null, "http://localhost:1234")
 
 //# sourceMappingURL=Khetify-UI.08a11c70.js.map

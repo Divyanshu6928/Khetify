@@ -1,6 +1,6 @@
 import React from 'react'
 // import Heading from './Heading';
-import productDetails from '../../data/productDetails';
+import {productDetails} from '../../data/productDetails';
 import Heading from './Heading';
 
 const ProductCards = () => {
