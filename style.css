@@ -759,3 +759,24 @@ body{
   font-size: 15px;
   font-weight: 600;
 }
+
+/* Offer-card */
+.offer-card{
+  height: 120px;
+  color: #000;
+  cursor: pointer;
+}
+
+.offer-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.offer-img{
+  height: 50px;
+  width: 50px;
+}
+
+.offer-title{
+  margin-bottom: 10px;
+}

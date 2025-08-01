@@ -29347,8 +29347,23 @@ const AboutCard = [
 const offerDetails = [
     {
         img_url: "https://res.cloudinary.com/depyc5ywg/image/upload/v1753955419/offer1_hj5wws.png",
-        title: "ABCDE",
-        description: "hello ji"
+        title: "Soil Testing Services",
+        description: "Get accurate soil health reports and several recommendations for better crop yield."
+    },
+    {
+        img_url: "https://res.cloudinary.com/depyc5ywg/image/upload/v1753955419/offer2_pmdjf3.png",
+        title: "AI Crop Health Scanner",
+        description: "Just upload a photo of your crop \u2013 our AI instantly identifies diseases and suggests treatments."
+    },
+    {
+        img_url: "https://res.cloudinary.com/depyc5ywg/image/upload/v1753955419/offer3_z6q3jn.png",
+        title: "IoT Water Management",
+        description: "Monitor and control your irrigation systems remotely using smart IoT dashboards."
+    },
+    {
+        img_url: "https://res.cloudinary.com/depyc5ywg/image/upload/v1753955420/offer4_htnmzb.png",
+        title: "Data-Driven Advisory",
+        description: "From sowing to harvesting \u2013 make informed decisions based on weather, market, and crop data."
     }
 ];
 
@@ -30671,80 +30686,57 @@ var _productDetails = require("../../data/productDetails");
 const OfferCard = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "product-card-container",
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "product-container",
-                children: (0, _productDetails.offerDetails).map((card, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "product-card",
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                src: card.img_url,
-                                alt: card.title,
-                                className: "product-image"
-                            }, void 0, false, {
-                                fileName: "src/components/OfferCard.jsx",
-                                lineNumber: 11,
-                                columnNumber: 17
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "product-content",
-                                children: [
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                                        className: "product-title",
-                                        children: card.title
-                                    }, void 0, false, {
-                                        fileName: "src/components/OfferCard.jsx",
-                                        lineNumber: 13,
-                                        columnNumber: 19
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                        className: "product-description",
-                                        children: card.description
-                                    }, void 0, false, {
-                                        fileName: "src/components/OfferCard.jsx",
-                                        lineNumber: 14,
-                                        columnNumber: 19
-                                    }, undefined)
-                                ]
-                            }, void 0, true, {
-                                fileName: "src/components/OfferCard.jsx",
-                                lineNumber: 12,
-                                columnNumber: 17
-                            }, undefined)
-                        ]
-                    }, index, true, {
-                        fileName: "src/components/OfferCard.jsx",
-                        lineNumber: 10,
-                        columnNumber: 15
-                    }, undefined))
-            }, void 0, false, {
-                fileName: "src/components/OfferCard.jsx",
-                lineNumber: 8,
-                columnNumber: 11
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "youtube-ad",
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("iframe", {
-                    width: "560",
-                    height: "315",
-                    src: "https://www.youtube.com/embed/6AmTYvlGoaI?si=T-e_ttR6kSawAqi6",
-                    title: "YouTube video player",
-                    frameBorder: "0",
-                    allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share",
-                    referrerPolicy: "strict-origin-when-cross-origin",
-                    allowFullScreen: true
-                }, void 0, false, {
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "product-container offer-container",
+            children: (0, _productDetails.offerDetails).map((card, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "product-card offer-card",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                            src: card.img_url,
+                            alt: card.title,
+                            className: "product-image offer-img"
+                        }, void 0, false, {
+                            fileName: "src/components/OfferCard.jsx",
+                            lineNumber: 11,
+                            columnNumber: 17
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "product-content",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                                    className: "product-title offer-title",
+                                    children: card.title
+                                }, void 0, false, {
+                                    fileName: "src/components/OfferCard.jsx",
+                                    lineNumber: 13,
+                                    columnNumber: 19
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                    className: "product-description",
+                                    children: card.description
+                                }, void 0, false, {
+                                    fileName: "src/components/OfferCard.jsx",
+                                    lineNumber: 14,
+                                    columnNumber: 19
+                                }, undefined)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/OfferCard.jsx",
+                            lineNumber: 12,
+                            columnNumber: 17
+                        }, undefined)
+                    ]
+                }, index, true, {
                     fileName: "src/components/OfferCard.jsx",
-                    lineNumber: 20,
-                    columnNumber: 13
-                }, undefined)
-            }, void 0, false, {
-                fileName: "src/components/OfferCard.jsx",
-                lineNumber: 19,
-                columnNumber: 11
-            }, undefined)
-        ]
-    }, void 0, true, {
+                    lineNumber: 10,
+                    columnNumber: 15
+                }, undefined))
+        }, void 0, false, {
+            fileName: "src/components/OfferCard.jsx",
+            lineNumber: 8,
+            columnNumber: 11
+        }, undefined)
+    }, void 0, false, {
         fileName: "src/components/OfferCard.jsx",
         lineNumber: 6,
         columnNumber: 5
