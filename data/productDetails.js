@@ -60,4 +60,18 @@ export const offerDetails = [
     title : "Data-Driven Advisory",
     description : "From sowing to harvesting – make informed decisions based on weather, market, and crop data."
   },  
+];
+
+export const vision= [
+  {
+    img_url : "https://res.cloudinary.com/depyc5ywg/image/upload/v1754103109/vision_x2xire.png",
+    vision : "To empower every farmer with the tools, knowledge, and confidence to thrive in a sustainable agricultural future.We envision a world where farming is smart, profitable, and resilient. Through digital integration and field-level impact, we aim to uplift communities and ensure food security for generations to come."
+  }
+];
+
+export const khetify = [
+  {
+    img_url : "https://res.cloudinary.com/depyc5ywg/image/upload/v1754103109/why_us_wpd0nf.png",
+    why_us : "Designed for farmers, by people who understand agriculture Bridging the gap between tradition and technology Transparent, community-focused approach Easy-to-use tools accessible via mobile devices"
+  }
 ]

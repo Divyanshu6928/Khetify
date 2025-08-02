@@ -9,7 +9,7 @@ const data = [
 
 const BasicCard = () => {
   return (
-    <div className='card-container'>
+    <div className='basic-card-container'>
         {data.map((item, index) => (
         <div key={index} className="basic-card">
           <p className="basic-heading">{item.card_head}</p>

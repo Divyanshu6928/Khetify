@@ -29305,6 +29305,8 @@ parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "productDetails", ()=>productDetails);
 parcelHelpers.export(exports, "AboutCard", ()=>AboutCard);
 parcelHelpers.export(exports, "offerDetails", ()=>offerDetails);
+parcelHelpers.export(exports, "vision", ()=>vision);
+parcelHelpers.export(exports, "khetify", ()=>khetify);
 const productDetails = [
     {
         img_url: "https://res.cloudinary.com/depyc5ywg/image/upload/v1752847647/Soil_testing-Photoroom_1_d6bhhn.png",
@@ -29364,6 +29366,18 @@ const offerDetails = [
         img_url: "https://res.cloudinary.com/depyc5ywg/image/upload/v1753955420/offer4_htnmzb.png",
         title: "Data-Driven Advisory",
         description: "From sowing to harvesting \u2013 make informed decisions based on weather, market, and crop data."
+    }
+];
+const vision = [
+    {
+        img_url: "https://res.cloudinary.com/depyc5ywg/image/upload/v1754103109/vision_x2xire.png",
+        vision: "To empower every farmer with the tools, knowledge, and confidence to thrive in a sustainable agricultural future.We envision a world where farming is smart, profitable, and resilient. Through digital integration and field-level impact, we aim to uplift communities and ensure food security for generations to come."
+    }
+];
+const khetify = [
+    {
+        img_url: "https://res.cloudinary.com/depyc5ywg/image/upload/v1754103109/why_us_wpd0nf.png",
+        why_us: "Designed for farmers, by people who understand agriculture Bridging the gap between tradition and technology Transparent, community-focused approach Easy-to-use tools accessible via mobile devices"
     }
 ];
 
@@ -30586,6 +30600,13 @@ const AboutUs = ()=>{
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _offerCardDefault.default), {}, void 0, false, {
                 fileName: "src/pages/AboutUs.jsx",
+                lineNumber: 20,
+                columnNumber: 9
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headingDefault.default), {
+                heading: "OUR VISION"
+            }, void 0, false, {
+                fileName: "src/pages/AboutUs.jsx",
                 lineNumber: 21,
                 columnNumber: 9
             }, undefined)
@@ -30606,7 +30627,7 @@ $RefreshReg$(_c, "AboutUs");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","../components/Header":"8BCUx","../components/BasicCard":"1hE1Z","../components/Heading":"4IatN","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","../components/OfferCard":"fxHnf"}],"1hE1Z":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","../components/Header":"8BCUx","../components/BasicCard":"1hE1Z","../components/Heading":"4IatN","../components/OfferCard":"fxHnf","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"1hE1Z":[function(require,module,exports,__globalThis) {
 var $parcel$ReactRefreshHelpers$cc05 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 $parcel$ReactRefreshHelpers$cc05.init();
 var prevRefreshReg = globalThis.$RefreshReg$;
@@ -30627,7 +30648,7 @@ const data = [
 ];
 const BasicCard = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "card-container",
+        className: "basic-card-container",
         children: data.map((item, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 className: "basic-card",
                 children: [
@@ -30752,6 +30773,6 @@ $RefreshReg$(_c, "OfferCard");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","../../data/productDetails":"cz9qX"}]},["d2FNE","96tIl"], "96tIl", "parcelRequire94c2", {}, null, null, "http://localhost:1234")
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","../../data/productDetails":"cz9qX","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}]},["d2FNE","96tIl"], "96tIl", "parcelRequire94c2", {}, null, null, "http://localhost:1234")
 
 //# sourceMappingURL=Khetify-UI.08a11c70.js.map

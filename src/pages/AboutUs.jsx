@@ -17,8 +17,11 @@ const AboutUs = () => {
         <BasicCard/>
 
         <Heading heading="WHAT WE OFFER"/>
-
         <OfferCard/>
+        <Heading heading="OUR VISION"/>
+        
+
+       
     </div>
 
 
