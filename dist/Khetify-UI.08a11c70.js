@@ -29305,8 +29305,7 @@ parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "productDetails", ()=>productDetails);
 parcelHelpers.export(exports, "AboutCard", ()=>AboutCard);
 parcelHelpers.export(exports, "offerDetails", ()=>offerDetails);
-parcelHelpers.export(exports, "vision", ()=>vision);
-parcelHelpers.export(exports, "khetify", ()=>khetify);
+parcelHelpers.export(exports, "twofacecard", ()=>twofacecard);
 const productDetails = [
     {
         img_url: "https://res.cloudinary.com/depyc5ywg/image/upload/v1752847647/Soil_testing-Photoroom_1_d6bhhn.png",
@@ -29368,13 +29367,11 @@ const offerDetails = [
         description: "From sowing to harvesting \u2013 make informed decisions based on weather, market, and crop data."
     }
 ];
-const vision = [
+const twofacecard = [
     {
         img_url: "https://res.cloudinary.com/depyc5ywg/image/upload/v1754103109/vision_x2xire.png",
         vision: "To empower every farmer with the tools, knowledge, and confidence to thrive in a sustainable agricultural future.We envision a world where farming is smart, profitable, and resilient. Through digital integration and field-level impact, we aim to uplift communities and ensure food security for generations to come."
-    }
-];
-const khetify = [
+    },
     {
         img_url: "https://res.cloudinary.com/depyc5ywg/image/upload/v1754103109/why_us_wpd0nf.png",
         why_us: "Designed for farmers, by people who understand agriculture Bridging the gap between tradition and technology Transparent, community-focused approach Easy-to-use tools accessible via mobile devices"
@@ -30551,13 +30548,16 @@ var _heading = require("../components/Heading");
 var _headingDefault = parcelHelpers.interopDefault(_heading);
 var _offerCard = require("../components/OfferCard");
 var _offerCardDefault = parcelHelpers.interopDefault(_offerCard);
+var _productDetails = require("../../data/productDetails");
+var _footer = require("../components/Footer");
+var _footerDefault = parcelHelpers.interopDefault(_footer);
 const AboutUs = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "about-body",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headerDefault.default), {}, void 0, false, {
                 fileName: "src/pages/AboutUs.jsx",
-                lineNumber: 11,
+                lineNumber: 13,
                 columnNumber: 9
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30569,7 +30569,7 @@ const AboutUs = ()=>{
                         width: 1520
                     }, void 0, false, {
                         fileName: "src/pages/AboutUs.jsx",
-                        lineNumber: 13,
+                        lineNumber: 15,
                         columnNumber: 11
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -30577,43 +30577,183 @@ const AboutUs = ()=>{
                         children: "ABOUT KHETIFY"
                     }, void 0, false, {
                         fileName: "src/pages/AboutUs.jsx",
-                        lineNumber: 14,
+                        lineNumber: 16,
                         columnNumber: 11
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/pages/AboutUs.jsx",
-                lineNumber: 12,
+                lineNumber: 14,
                 columnNumber: 9
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _basicCardDefault.default), {}, void 0, false, {
                 fileName: "src/pages/AboutUs.jsx",
-                lineNumber: 17,
+                lineNumber: 19,
                 columnNumber: 9
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headingDefault.default), {
                 heading: "WHAT WE OFFER"
             }, void 0, false, {
                 fileName: "src/pages/AboutUs.jsx",
-                lineNumber: 19,
+                lineNumber: 21,
                 columnNumber: 9
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _offerCardDefault.default), {}, void 0, false, {
                 fileName: "src/pages/AboutUs.jsx",
-                lineNumber: 20,
+                lineNumber: 22,
                 columnNumber: 9
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headingDefault.default), {
                 heading: "OUR VISION"
             }, void 0, false, {
                 fileName: "src/pages/AboutUs.jsx",
-                lineNumber: 21,
+                lineNumber: 23,
                 columnNumber: 9
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "about-card-container mt-5 mb-5",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "about-img-container",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                            src: (0, _productDetails.twofacecard)[0].img_url,
+                            alt: ""
+                        }, void 0, false, {
+                            fileName: "src/pages/AboutUs.jsx",
+                            lineNumber: 27,
+                            columnNumber: 13
+                        }, undefined)
+                    }, void 0, false, {
+                        fileName: "src/pages/AboutUs.jsx",
+                        lineNumber: 26,
+                        columnNumber: 11
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "about-text-container",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                            children: (0, _productDetails.twofacecard)[0].vision
+                        }, void 0, false, {
+                            fileName: "src/pages/AboutUs.jsx",
+                            lineNumber: 30,
+                            columnNumber: 13
+                        }, undefined)
+                    }, void 0, false, {
+                        fileName: "src/pages/AboutUs.jsx",
+                        lineNumber: 29,
+                        columnNumber: 11
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/pages/AboutUs.jsx",
+                lineNumber: 25,
+                columnNumber: 9
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headingDefault.default), {
+                heading: "WHY KHETIFY ??"
+            }, void 0, false, {
+                fileName: "src/pages/AboutUs.jsx",
+                lineNumber: 34,
+                columnNumber: 9
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "about-card-container ",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "about-img-container",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                            src: (0, _productDetails.twofacecard)[1].img_url,
+                            alt: "",
+                            height: 300
+                        }, void 0, false, {
+                            fileName: "src/pages/AboutUs.jsx",
+                            lineNumber: 38,
+                            columnNumber: 13
+                        }, undefined)
+                    }, void 0, false, {
+                        fileName: "src/pages/AboutUs.jsx",
+                        lineNumber: 37,
+                        columnNumber: 11
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "about-text-container",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                            children: (0, _productDetails.twofacecard)[1].why_us
+                        }, void 0, false, {
+                            fileName: "src/pages/AboutUs.jsx",
+                            lineNumber: 41,
+                            columnNumber: 13
+                        }, undefined)
+                    }, void 0, false, {
+                        fileName: "src/pages/AboutUs.jsx",
+                        lineNumber: 40,
+                        columnNumber: 11
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/pages/AboutUs.jsx",
+                lineNumber: 36,
+                columnNumber: 9
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "about-last-content",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "about-last-content-p1",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                            children: "\uD83D\uDD17 Join the Khetify Revolution"
+                        }, void 0, false, {
+                            fileName: "src/pages/AboutUs.jsx",
+                            lineNumber: 47,
+                            columnNumber: 15
+                        }, undefined)
+                    }, void 0, false, {
+                        fileName: "src/pages/AboutUs.jsx",
+                        lineNumber: 46,
+                        columnNumber: 13
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "about-last-content-p2",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                            children: [
+                                "Whether you're a farmer, agripreneur, or simply passionate about rural development, ",
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                    fileName: "src/pages/AboutUs.jsx",
+                                    lineNumber: 50,
+                                    columnNumber: 102
+                                }, undefined),
+                                " Khetify welcomes you to be part of our journey. ",
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                    fileName: "src/pages/AboutUs.jsx",
+                                    lineNumber: 51,
+                                    columnNumber: 55
+                                }, undefined),
+                                " Let\u2019s grow together \u2014 smarter, greener, and stronger."
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/pages/AboutUs.jsx",
+                            lineNumber: 50,
+                            columnNumber: 15
+                        }, undefined)
+                    }, void 0, false, {
+                        fileName: "src/pages/AboutUs.jsx",
+                        lineNumber: 49,
+                        columnNumber: 13
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/pages/AboutUs.jsx",
+                lineNumber: 45,
+                columnNumber: 9
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _footerDefault.default), {}, void 0, false, {
+                fileName: "src/pages/AboutUs.jsx",
+                lineNumber: 55,
+                columnNumber: 8
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/pages/AboutUs.jsx",
-        lineNumber: 10,
+        lineNumber: 12,
         columnNumber: 5
     }, undefined);
 };
@@ -30627,7 +30767,7 @@ $RefreshReg$(_c, "AboutUs");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","../components/Header":"8BCUx","../components/BasicCard":"1hE1Z","../components/Heading":"4IatN","../components/OfferCard":"fxHnf","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"1hE1Z":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","../components/Header":"8BCUx","../components/BasicCard":"1hE1Z","../components/Heading":"4IatN","../components/OfferCard":"fxHnf","../../data/productDetails":"cz9qX","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","../components/Footer":"lU1xT"}],"1hE1Z":[function(require,module,exports,__globalThis) {
 var $parcel$ReactRefreshHelpers$cc05 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 $parcel$ReactRefreshHelpers$cc05.init();
 var prevRefreshReg = globalThis.$RefreshReg$;

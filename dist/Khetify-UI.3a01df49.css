@@ -672,6 +672,7 @@ body {
 
 .offer-container {
   flex-wrap: wrap;
+  margin-bottom: 70px;
   display: flex;
 }
 
@@ -682,5 +683,51 @@ body {
 
 .offer-title {
   margin-bottom: 10px;
+}
+
+.about-card-container {
+  text-align: center;
+  background-color: #fff;
+  border: 3px solid #000;
+  border-radius: 16px;
+  align-items: center;
+  width: 800px;
+  height: 300px;
+  margin-top: 70px;
+  margin-bottom: 20px;
+  margin-left: 350px;
+  padding: 10px;
+  font-weight: 600;
+  display: flex;
+  box-shadow: 5px 7px 10px #000;
+}
+
+.about-card-container:hover {
+  cursor: pointer;
+  transition: all .4s;
+  transform: translateY(-5px);
+}
+
+.about-last-content {
+  text-wrap: wrap;
+  text-align: center;
+  place-content: center;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: block;
+}
+
+.about-last-content-p1 {
+  color: #fff;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.about-last-content-p2 {
+  color: #fff;
+  text-align: center;
+  font-weight: 400;
 }
 /*# sourceMappingURL=Khetify-UI.3a01df49.css.map */

@@ -1,10 +1,12 @@
 import React from 'react';
-import { vision, khetify } from '../../data/productDetails';
+import { twofacecard } from '../../data/productDetails';
 
 const TwoFaceCards = () => {
   return (
     <div className='two-face-card-container'>
-        <div></div>
+        <div>
+          <img src="" alt="" />
+        </div>
         <div></div>
     </div>
   )
