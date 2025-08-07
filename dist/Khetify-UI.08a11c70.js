@@ -29332,6 +29332,7 @@ parcelHelpers.export(exports, "productDetails", ()=>productDetails);
 parcelHelpers.export(exports, "AboutCard", ()=>AboutCard);
 parcelHelpers.export(exports, "offerDetails", ()=>offerDetails);
 parcelHelpers.export(exports, "twofacecard", ()=>twofacecard);
+parcelHelpers.export(exports, "categories", ()=>categories);
 const productDetails = [
     {
         img_url: "https://res.cloudinary.com/depyc5ywg/image/upload/v1752847647/Soil_testing-Photoroom_1_d6bhhn.png",
@@ -29401,6 +29402,24 @@ const twofacecard = [
     {
         img_url: "https://res.cloudinary.com/depyc5ywg/image/upload/v1754103109/why_us_wpd0nf.png",
         why_us: "Designed for farmers, by people who understand agriculture Bridging the gap between tradition and technology Transparent, community-focused approach Easy-to-use tools accessible via mobile devices"
+    }
+];
+const categories = [
+    {
+        img_url: "https://res.cloudinary.com/depyc5ywg/image/upload/v1754587761/cat-1_mvkixg.png",
+        text: "Seeds"
+    },
+    {
+        img_url: "https://res.cloudinary.com/depyc5ywg/image/upload/v1754587762/cat-2_ggkhpj.png",
+        text: "Fertilizers"
+    },
+    {
+        img_url: "https://res.cloudinary.com/depyc5ywg/image/upload/v1754587762/cat-3_rfggah.png",
+        text: "Pesticides"
+    },
+    {
+        img_url: "https://res.cloudinary.com/depyc5ywg/image/upload/v1754587792/cat-4_crlful.png",
+        text: "Farm Tools"
     }
 ];
 
@@ -30793,7 +30812,7 @@ $RefreshReg$(_c, "AboutUs");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","../components/Header":"8BCUx","../components/BasicCard":"1hE1Z","../components/Heading":"4IatN","../components/OfferCard":"fxHnf","../../data/productDetails":"cz9qX","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","../components/Footer":"lU1xT"}],"1hE1Z":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","../components/Header":"8BCUx","../components/BasicCard":"1hE1Z","../components/Heading":"4IatN","../components/OfferCard":"fxHnf","../../data/productDetails":"cz9qX","../components/Footer":"lU1xT","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"1hE1Z":[function(require,module,exports,__globalThis) {
 var $parcel$ReactRefreshHelpers$cc05 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 $parcel$ReactRefreshHelpers$cc05.init();
 var prevRefreshReg = globalThis.$RefreshReg$;
@@ -30954,13 +30973,14 @@ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _header = require("../components/Header");
 var _headerDefault = parcelHelpers.interopDefault(_header);
+var _productDetails = require("../../data/productDetails");
 const Shop = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "shop-body-container",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headerDefault.default), {}, void 0, false, {
                 fileName: "src/pages/Shop.jsx",
-                lineNumber: 9,
+                lineNumber: 10,
                 columnNumber: 9
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30974,7 +30994,7 @@ const Shop = ()=>{
                                 children: "Bringing Innovation to Your Fields"
                             }, void 0, false, {
                                 fileName: "src/pages/Shop.jsx",
-                                lineNumber: 12,
+                                lineNumber: 13,
                                 columnNumber: 17
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -30982,7 +31002,7 @@ const Shop = ()=>{
                                 children: "Welcome to the Khetify Shop \u2014 your one-stop destination for reliable, farmer-friendly agricultural solutions. We offer tools, kits, and digital services that empower you to make informed decisions and increase crop productivity."
                             }, void 0, false, {
                                 fileName: "src/pages/Shop.jsx",
-                                lineNumber: 13,
+                                lineNumber: 14,
                                 columnNumber: 17
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
@@ -30990,13 +31010,13 @@ const Shop = ()=>{
                                 children: "Scroll Down !!"
                             }, void 0, false, {
                                 fileName: "src/pages/Shop.jsx",
-                                lineNumber: 14,
+                                lineNumber: 15,
                                 columnNumber: 17
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/pages/Shop.jsx",
-                        lineNumber: 11,
+                        lineNumber: 12,
                         columnNumber: 13
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -31008,24 +31028,91 @@ const Shop = ()=>{
                             height: 760
                         }, void 0, false, {
                             fileName: "src/pages/Shop.jsx",
-                            lineNumber: 17,
+                            lineNumber: 18,
                             columnNumber: 17
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/pages/Shop.jsx",
-                        lineNumber: 16,
+                        lineNumber: 17,
                         columnNumber: 13
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/pages/Shop.jsx",
-                lineNumber: 10,
+                lineNumber: 11,
+                columnNumber: 9
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "category-section d-flex justify-content-evenly align-content-center",
+                style: {
+                    marginTop: "50px"
+                },
+                children: [
+                    (0, _productDetails.categories).map((item, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "d-flex justify-content-evenly align-content-center text-center categories-shop",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                    src: item.img_url,
+                                    alt: "can't load",
+                                    height: 80
+                                }, void 0, false, {
+                                    fileName: "src/pages/Shop.jsx",
+                                    lineNumber: 25,
+                                    columnNumber: 21
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                    children: item.text
+                                }, void 0, false, {
+                                    fileName: "src/pages/Shop.jsx",
+                                    lineNumber: 26,
+                                    columnNumber: 21
+                                }, undefined)
+                            ]
+                        }, index, true, {
+                            fileName: "src/pages/Shop.jsx",
+                            lineNumber: 24,
+                            columnNumber: 17
+                        }, undefined)),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                        className: "see-all-btn d-flex flex-column align-items-center justify-content-center p-3 rounded",
+                        style: {
+                            minWidth: '100px'
+                        },
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                style: {
+                                    fontSize: '1.5rem'
+                                },
+                                className: "bi bi-arrow-right-circle"
+                            }, void 0, false, {
+                                fileName: "src/pages/Shop.jsx",
+                                lineNumber: 31,
+                                columnNumber: 17
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                className: "fw-bold see-all-btn-text",
+                                children: "See all"
+                            }, void 0, false, {
+                                fileName: "src/pages/Shop.jsx",
+                                lineNumber: 32,
+                                columnNumber: 17
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/pages/Shop.jsx",
+                        lineNumber: 30,
+                        columnNumber: 13
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/pages/Shop.jsx",
+                lineNumber: 22,
                 columnNumber: 9
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/pages/Shop.jsx",
-        lineNumber: 8,
+        lineNumber: 9,
         columnNumber: 5
     }, undefined);
 };
@@ -31039,6 +31126,6 @@ $RefreshReg$(_c, "Shop");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react":"jMk1U","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","react/jsx-dev-runtime":"dVPUn","../components/Header":"8BCUx"}]},["d2FNE","96tIl"], "96tIl", "parcelRequire94c2", {}, null, null, "http://localhost:1234")
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","../components/Header":"8BCUx","../../data/productDetails":"cz9qX","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}]},["d2FNE","96tIl"], "96tIl", "parcelRequire94c2", {}, null, null, "http://localhost:1234")
 
 //# sourceMappingURL=Khetify-UI.08a11c70.js.map

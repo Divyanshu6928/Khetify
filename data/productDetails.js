@@ -72,3 +72,22 @@ export const twofacecard= [
     why_us : "Designed for farmers, by people who understand agriculture Bridging the gap between tradition and technology Transparent, community-focused approach Easy-to-use tools accessible via mobile devices"
   }
 ];
+
+export const categories = [
+  {
+    img_url : "https://res.cloudinary.com/depyc5ywg/image/upload/v1754587761/cat-1_mvkixg.png",
+    text : "Seeds"
+  },
+  {
+    img_url : "https://res.cloudinary.com/depyc5ywg/image/upload/v1754587762/cat-2_ggkhpj.png",
+    text : "Fertilizers"
+  },
+  {
+    img_url : "https://res.cloudinary.com/depyc5ywg/image/upload/v1754587762/cat-3_rfggah.png",
+    text : "Pesticides"
+  },
+  {
+    img_url : "https://res.cloudinary.com/depyc5ywg/image/upload/v1754587792/cat-4_crlful.png",
+    text : "Farm Tools"
+  }
+];

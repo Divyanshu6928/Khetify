@@ -734,6 +734,11 @@ body {
   font-weight: 400;
 }
 
+.shop-body-container {
+  background: url("https://res.cloudinary.com/depyc5ywg/image/upload/v1754586392/Screenshot_2025-08-07_223610_ufskrr.png") 0 0 / cover no-repeat;
+  height: auto;
+}
+
 .shop-page-top {
   width: 100%;
   height: 770px;
@@ -782,5 +787,46 @@ body {
 
 .shop-body-hero-img {
   z-index: 10;
+}
+
+.categories-shop p {
+  text-align: center;
+  gap: 40px;
+  width: 100px;
+  margin-top: 25px;
+  font-weight: 700;
+}
+
+.categories-shop {
+  cursor: pointer;
+  background-color: #fff;
+  border: 3px solid #000;
+  border-radius: 12px;
+  padding: 5px 10px;
+}
+
+.categories-shop:hover {
+  color: #000;
+  background-color: #d6cb2a;
+  scale: 1.01;
+}
+
+.see-all-btn {
+  border: 3px solid #000;
+}
+
+.see-all-btn:hover {
+  cursor: pointer;
+  color: #006400;
+  background-color: #cfc;
+  border: 3px solid #000;
+  transition: transform .2s;
+  scale: 1.01;
+}
+
+.see-all-btn-text:hover {
+  color: #006400;
+  transition: all 1s;
+  transform: translateY(50px);
 }
 /*# sourceMappingURL=Khetify-UI.3a01df49.css.map */

@@ -837,6 +837,12 @@ body{
   text-align: center;
 }
 
+.shop-body-container{
+  background: url("https://res.cloudinary.com/depyc5ywg/image/upload/v1754586392/Screenshot_2025-08-07_223610_ufskrr.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+}
 
 .shop-page-top{
   background: url("https://res.cloudinary.com/depyc5ywg/image/upload/v1754561776/Screenshot_2025-08-07_154514_zzn9nl.png");
@@ -888,4 +894,51 @@ body{
 
 .shop-body-hero-img{
   z-index: 10;
+}
+
+.categories-shop p{
+  text-align: center;
+  margin-top: 25px;
+  width: 100px;
+  gap: 40px;
+  font-weight: 700;
+}
+
+.categories-shop{
+  padding: 5px 10px;
+  border: 3px solid black;
+  background-color: #ffffff;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.categories-shop:hover{
+  color: #000;
+  background-color: rgb(214, 203, 42);
+  scale: 1.01;
+
+}
+
+.see-all-btn{
+  border: 3px solid black;
+}
+
+.see-all-btn:hover{
+  /* box-shadow: 8px 10px 10px #32cd32; */
+  cursor: pointer;
+  border: 3px solid rgb(0, 0, 0);
+  scale: 1.01;
+  transition: 0.5s;
+  
+    background-color: #ccffcc;
+  color: #006400;
+  transition: transform 0.2s ease;
+}
+
+.see-all-btn-text:hover{
+  color: #006400;
+  /* transition: transform 0.2s ease; */
+  scale: 1.01;
+  transition: 1s;
+  transform: translateY(50px);
 }
