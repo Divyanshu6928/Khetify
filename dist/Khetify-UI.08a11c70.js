@@ -687,12 +687,14 @@ var _aboutUs = require("./src/pages/AboutUs");
 var _aboutUsDefault = parcelHelpers.interopDefault(_aboutUs);
 var _header = require("./src/components/Header");
 var _headerDefault = parcelHelpers.interopDefault(_header);
+var _shop = require("./src/pages/Shop");
+var _shopDefault = parcelHelpers.interopDefault(_shop);
 const App = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.BrowserRouter), {
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headerDefault.default), {}, void 0, false, {
                 fileName: "App.jsx",
-                lineNumber: 12,
+                lineNumber: 13,
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Routes), {
@@ -701,36 +703,48 @@ const App = ()=>{
                         path: "/",
                         element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _homeDefault.default), {}, void 0, false, {
                             fileName: "App.jsx",
-                            lineNumber: 14,
+                            lineNumber: 15,
                             columnNumber: 42
                         }, void 0)
                     }, void 0, false, {
                         fileName: "App.jsx",
-                        lineNumber: 14,
+                        lineNumber: 15,
                         columnNumber: 17
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
                         path: "/about-us",
                         element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _aboutUsDefault.default), {}, void 0, false, {
                             fileName: "App.jsx",
-                            lineNumber: 15,
+                            lineNumber: 16,
                             columnNumber: 50
                         }, void 0)
                     }, void 0, false, {
                         fileName: "App.jsx",
-                        lineNumber: 15,
+                        lineNumber: 16,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                        path: "/shop",
+                        element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _shopDefault.default), {}, void 0, false, {
+                            fileName: "App.jsx",
+                            lineNumber: 17,
+                            columnNumber: 46
+                        }, void 0)
+                    }, void 0, false, {
+                        fileName: "App.jsx",
+                        lineNumber: 17,
                         columnNumber: 17
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "App.jsx",
-                lineNumber: 13,
+                lineNumber: 14,
                 columnNumber: 13
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "App.jsx",
-        lineNumber: 11,
+        lineNumber: 12,
         columnNumber: 9
     }, undefined);
 };
@@ -738,7 +752,7 @@ _c = App;
 const root = (0, _clientDefault.default).createRoot(document.getElementById("root"));
 root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(App, {}, void 0, false, {
     fileName: "App.jsx",
-    lineNumber: 23,
+    lineNumber: 25,
     columnNumber: 13
 }, undefined));
 var _c;
@@ -749,7 +763,7 @@ $RefreshReg$(_c, "App");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","react-dom/client":"hrvwu","./src/components/Header":"8BCUx","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","react-router-dom":"61z4w","./src/pages/Home":"cORsp","./src/pages/AboutUs":"39wyk"}],"dVPUn":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","react-dom/client":"hrvwu","./src/components/Header":"8BCUx","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","react-router-dom":"61z4w","./src/pages/Home":"cORsp","./src/pages/AboutUs":"39wyk","./src/pages/Shop":"bcync"}],"dVPUn":[function(require,module,exports,__globalThis) {
 'use strict';
 module.exports = require("ee51401569654d91");
 
@@ -16227,7 +16241,19 @@ const Header = ()=>{
                             columnNumber: 21
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                            children: "Shop"
+                            className: "text-white text-decoration-none",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                to: "/shop",
+                                style: {
+                                    color: "white",
+                                    textDecoration: "none"
+                                },
+                                children: "Shop"
+                            }, void 0, false, {
+                                fileName: "src/components/Header.jsx",
+                                lineNumber: 15,
+                                columnNumber: 69
+                            }, undefined)
                         }, void 0, false, {
                             fileName: "src/components/Header.jsx",
                             lineNumber: 15,
@@ -30913,6 +30939,106 @@ $RefreshReg$(_c, "OfferCard");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","../../data/productDetails":"cz9qX","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}]},["d2FNE","96tIl"], "96tIl", "parcelRequire94c2", {}, null, null, "http://localhost:1234")
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","../../data/productDetails":"cz9qX","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"bcync":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$d92f = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$d92f.init();
+var prevRefreshReg = globalThis.$RefreshReg$;
+var prevRefreshSig = globalThis.$RefreshSig$;
+$parcel$ReactRefreshHelpers$d92f.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _header = require("../components/Header");
+var _headerDefault = parcelHelpers.interopDefault(_header);
+const Shop = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "shop-body-container",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headerDefault.default), {}, void 0, false, {
+                fileName: "src/pages/Shop.jsx",
+                lineNumber: 9,
+                columnNumber: 9
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "shop-page-top",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "shop-body-hero-container",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                className: "shop-body-hero-container-p1",
+                                children: "Bringing Innovation to Your Fields"
+                            }, void 0, false, {
+                                fileName: "src/pages/Shop.jsx",
+                                lineNumber: 12,
+                                columnNumber: 17
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                className: "shop-body-hero-container-p2",
+                                children: "Welcome to the Khetify Shop \u2014 your one-stop destination for reliable, farmer-friendly agricultural solutions. We offer tools, kits, and digital services that empower you to make informed decisions and increase crop productivity."
+                            }, void 0, false, {
+                                fileName: "src/pages/Shop.jsx",
+                                lineNumber: 13,
+                                columnNumber: 17
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                                className: "btn btn-success btn-scroll-down",
+                                children: "Scroll Down !!"
+                            }, void 0, false, {
+                                fileName: "src/pages/Shop.jsx",
+                                lineNumber: 14,
+                                columnNumber: 17
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/pages/Shop.jsx",
+                        lineNumber: 11,
+                        columnNumber: 13
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "shop-body-hero-img",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                            src: "https://res.cloudinary.com/depyc5ywg/image/upload/v1754562024/Shop-page-farmer_kqbhxl.png",
+                            className: "mt-4",
+                            alt: "",
+                            height: 760
+                        }, void 0, false, {
+                            fileName: "src/pages/Shop.jsx",
+                            lineNumber: 17,
+                            columnNumber: 17
+                        }, undefined)
+                    }, void 0, false, {
+                        fileName: "src/pages/Shop.jsx",
+                        lineNumber: 16,
+                        columnNumber: 13
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/pages/Shop.jsx",
+                lineNumber: 10,
+                columnNumber: 9
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/pages/Shop.jsx",
+        lineNumber: 8,
+        columnNumber: 5
+    }, undefined);
+};
+_c = Shop;
+exports.default = Shop;
+var _c;
+$RefreshReg$(_c, "Shop");
+
+  $parcel$ReactRefreshHelpers$d92f.postlude(module);
+} finally {
+  globalThis.$RefreshReg$ = prevRefreshReg;
+  globalThis.$RefreshSig$ = prevRefreshSig;
+}
+},{"react":"jMk1U","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","react/jsx-dev-runtime":"dVPUn","../components/Header":"8BCUx"}]},["d2FNE","96tIl"], "96tIl", "parcelRequire94c2", {}, null, null, "http://localhost:1234")
 
 //# sourceMappingURL=Khetify-UI.08a11c70.js.map

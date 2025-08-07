@@ -7,6 +7,7 @@ body{
 .navbar-container{
     display: flex;
     justify-content: space-between;
+    text-align: center;
     margin: 50px;
     padding: 5px 15px;
     border-radius: 12px;
@@ -24,6 +25,7 @@ body{
     display: flex;
     gap: 30px;
     list-style: none;
+    margin-top: 10px;
 }
 
 .nav-left,
@@ -31,6 +33,7 @@ body{
 .nav-right {
   display: flex;
   align-items: center;
+  text-align: center;
 }
 
 .khetify-logo{
@@ -834,3 +837,55 @@ body{
   text-align: center;
 }
 
+
+.shop-page-top{
+  background: url("https://res.cloudinary.com/depyc5ywg/image/upload/v1754561776/Screenshot_2025-08-07_154514_zzn9nl.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 770px;
+  width: 100%;
+  opacity: 0.7s;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.shop-body-hero-container{
+  margin-top: 80px;
+  width: 500px;
+  text-align: center;
+  padding: 30px;
+  border: 3px solid black;
+  border-radius: 14px;
+  background-color: #BCFFC2;
+  box-shadow: 4px 5px 10px black;
+}
+
+.shop-body-hero-container-p1{
+  font-weight: 800;
+  font-size: 25px;
+  text-align: left;
+}
+
+.shop-body-hero-container-p2{
+  font-weight: 600;
+  font-size: 18px;
+  text-align: left;
+}
+
+.btn-scroll-down{
+  font-weight: 600;
+  transition: 0.5s;
+}
+
+.btn-scroll-down:hover{
+  background: #fff;
+  color: black;
+  border: 3px solid rgb(0, 0, 0);
+  scale: 1.01;
+  transition: 0.5s;
+}
+
+.shop-body-hero-img{
+  z-index: 10;
+}

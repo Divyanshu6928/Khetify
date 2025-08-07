@@ -12,7 +12,7 @@ const Header = () => {
                 <ul className="nav-mid-list">
                     <li className="text-white text-decoration-none"><Link to="/" style={{ color: "white", textDecoration: "none" }}>Home</Link></li>
                     <li className="text-white text-decoration-none"><Link to="/about-us" style={{ color: "white", textDecoration: "none" }}>About Us</Link></li>
-                    <li>Shop</li>
+                    <li className="text-white text-decoration-none"><Link to="/shop" style={{ color: "white", textDecoration: "none" }}>Shop</Link></li>
                     <li>Services</li>
                 </ul>
             </div>
