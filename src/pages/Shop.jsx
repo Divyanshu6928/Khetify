@@ -1,7 +1,12 @@
 import React from 'react'
 import Header from '../components/Header';
+import Footer from '../components/Footer';
 import { categories } from '../../data/productDetails';
-import Heading from '../components/Heading'
+import Heading from '../components/Heading';
+import Seeds from '../components/Seeds';
+import Fertilizers from '../components/Fertilizers';
+import Pesticides from '../components/Pesticides';
+import FarmTools from '../components/FarmTools';
 
 
 const Shop = () => {
@@ -62,7 +67,18 @@ const Shop = () => {
         </div>
 
         <Heading heading="SEEDS"/>
+        <Seeds/>
 
+        <Heading heading="FERTILIZERS"/>
+        <Fertilizers/>
+
+        <Heading heading="PESTICIDES"/>
+        <Pesticides/>
+
+        <Heading heading="FARM TOOLS"/>
+        <FarmTools/>
+        <div style={{height : 200}}></div>
+        <Footer />
         
     </div>
   )

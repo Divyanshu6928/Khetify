@@ -358,12 +358,13 @@ body{
 
 .shop-card:hover {
   cursor: pointer;
-  transform: scale(1.05);
+  /* transform: scale(1.05); */
 }
 
 /* Product image */
 .shop-img {
-  height: 180px;
+  height: 200px;
+  /* width: 200px; */
   object-fit: contain;
   margin-bottom: 10px;
 }
@@ -1034,4 +1035,45 @@ body{
   font-size: 24px;
   width: 200px;
   text-wrap: nowrap;
+}
+
+.seed-card{
+  /* padding: 20px; */
+  padding-left: 50px;
+  padding-right: 50px;
+  /* gap: 10px; */
+}
+
+.seed-price{
+  margin-top: 20px;
+}
+
+.seed-container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 3 cards per row */
+  gap: 40px;
+  justify-items: center;
+  align-items: start;
+  margin-left: 80px;
+  max-width: 1200px;
+}
+.seed-card-btn{
+  background-color: #11E635;
+  color: black;
+  /* padd */
+  padding: 10px ;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  border: 3px solid black;
+  transition: all 0.3s ease-in-out;
+  /* borde/ */
+}
+
+.seed-card-btn:hover{
+  background-color: #ffffff;
+  
+  /* transition: 0.5s; */
 }

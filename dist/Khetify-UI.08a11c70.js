@@ -30973,16 +30973,26 @@ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _header = require("../components/Header");
 var _headerDefault = parcelHelpers.interopDefault(_header);
+var _footer = require("../components/Footer");
+var _footerDefault = parcelHelpers.interopDefault(_footer);
 var _productDetails = require("../../data/productDetails");
 var _heading = require("../components/Heading");
 var _headingDefault = parcelHelpers.interopDefault(_heading);
+var _seeds = require("../components/Seeds");
+var _seedsDefault = parcelHelpers.interopDefault(_seeds);
+var _fertilizers = require("../components/Fertilizers");
+var _fertilizersDefault = parcelHelpers.interopDefault(_fertilizers);
+var _pesticides = require("../components/Pesticides");
+var _pesticidesDefault = parcelHelpers.interopDefault(_pesticides);
+var _farmTools = require("../components/FarmTools");
+var _farmToolsDefault = parcelHelpers.interopDefault(_farmTools);
 const Shop = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "shop-body-container",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headerDefault.default), {}, void 0, false, {
                 fileName: "src/pages/Shop.jsx",
-                lineNumber: 10,
+                lineNumber: 15,
                 columnNumber: 9
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30996,7 +31006,7 @@ const Shop = ()=>{
                                 children: "Bringing Innovation to Your Fields"
                             }, void 0, false, {
                                 fileName: "src/pages/Shop.jsx",
-                                lineNumber: 13,
+                                lineNumber: 18,
                                 columnNumber: 17
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -31004,7 +31014,7 @@ const Shop = ()=>{
                                 children: "Welcome to the Khetify Shop \u2014 your one-stop destination for reliable, farmer-friendly agricultural solutions. We offer tools, kits, and digital services that empower you to make informed decisions and increase crop productivity."
                             }, void 0, false, {
                                 fileName: "src/pages/Shop.jsx",
-                                lineNumber: 14,
+                                lineNumber: 19,
                                 columnNumber: 17
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
@@ -31012,13 +31022,13 @@ const Shop = ()=>{
                                 children: "Scroll Down !!"
                             }, void 0, false, {
                                 fileName: "src/pages/Shop.jsx",
-                                lineNumber: 15,
+                                lineNumber: 20,
                                 columnNumber: 17
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/pages/Shop.jsx",
-                        lineNumber: 12,
+                        lineNumber: 17,
                         columnNumber: 13
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -31030,18 +31040,18 @@ const Shop = ()=>{
                             height: 765
                         }, void 0, false, {
                             fileName: "src/pages/Shop.jsx",
-                            lineNumber: 18,
+                            lineNumber: 23,
                             columnNumber: 17
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/pages/Shop.jsx",
-                        lineNumber: 17,
+                        lineNumber: 22,
                         columnNumber: 13
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/pages/Shop.jsx",
-                lineNumber: 11,
+                lineNumber: 16,
                 columnNumber: 9
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -31060,20 +31070,20 @@ const Shop = ()=>{
                                     className: "category-section-img"
                                 }, void 0, false, {
                                     fileName: "src/pages/Shop.jsx",
-                                    lineNumber: 25,
+                                    lineNumber: 30,
                                     columnNumber: 21
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                     children: item.text
                                 }, void 0, false, {
                                     fileName: "src/pages/Shop.jsx",
-                                    lineNumber: 26,
+                                    lineNumber: 31,
                                     columnNumber: 21
                                 }, undefined)
                             ]
                         }, index, true, {
                             fileName: "src/pages/Shop.jsx",
-                            lineNumber: 24,
+                            lineNumber: 29,
                             columnNumber: 17
                         }, undefined)),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
@@ -31089,7 +31099,7 @@ const Shop = ()=>{
                                 className: "bi bi-arrow-right-circle"
                             }, void 0, false, {
                                 fileName: "src/pages/Shop.jsx",
-                                lineNumber: 31,
+                                lineNumber: 36,
                                 columnNumber: 17
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
@@ -31097,19 +31107,19 @@ const Shop = ()=>{
                                 children: "See all"
                             }, void 0, false, {
                                 fileName: "src/pages/Shop.jsx",
-                                lineNumber: 32,
+                                lineNumber: 37,
                                 columnNumber: 17
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/pages/Shop.jsx",
-                        lineNumber: 30,
+                        lineNumber: 35,
                         columnNumber: 13
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/pages/Shop.jsx",
-                lineNumber: 22,
+                lineNumber: 27,
                 columnNumber: 9
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -31122,12 +31132,12 @@ const Shop = ()=>{
                             alt: ""
                         }, void 0, false, {
                             fileName: "src/pages/Shop.jsx",
-                            lineNumber: 39,
+                            lineNumber: 44,
                             columnNumber: 17
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/pages/Shop.jsx",
-                        lineNumber: 38,
+                        lineNumber: 43,
                         columnNumber: 13
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -31138,7 +31148,7 @@ const Shop = ()=>{
                                 children: "Water Level Adjuster"
                             }, void 0, false, {
                                 fileName: "src/pages/Shop.jsx",
-                                lineNumber: 42,
+                                lineNumber: 47,
                                 columnNumber: 17
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -31146,7 +31156,7 @@ const Shop = ()=>{
                                 children: "This IoT device will automatically adjust water supply to fields based on the soil type, field area, crop and the weather conditions. All these four parameters will be used to estimate the expected water supply to fields and this device will get a power supply from solar panels which will increase the efficiency and profitability."
                             }, void 0, false, {
                                 fileName: "src/pages/Shop.jsx",
-                                lineNumber: 43,
+                                lineNumber: 48,
                                 columnNumber: 17
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -31157,7 +31167,7 @@ const Shop = ()=>{
                                         children: "\u20B9 12,999"
                                     }, void 0, false, {
                                         fileName: "src/pages/Shop.jsx",
-                                        lineNumber: 45,
+                                        lineNumber: 50,
                                         columnNumber: 21
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
@@ -31171,7 +31181,7 @@ const Shop = ()=>{
                                                     children: "-"
                                                 }, void 0, false, {
                                                     fileName: "src/pages/Shop.jsx",
-                                                    lineNumber: 48,
+                                                    lineNumber: 53,
                                                     columnNumber: 29
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
@@ -31179,7 +31189,7 @@ const Shop = ()=>{
                                                     children: "1"
                                                 }, void 0, false, {
                                                     fileName: "src/pages/Shop.jsx",
-                                                    lineNumber: 49,
+                                                    lineNumber: 54,
                                                     columnNumber: 29
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
@@ -31188,24 +31198,24 @@ const Shop = ()=>{
                                                     children: "+"
                                                 }, void 0, false, {
                                                     fileName: "src/pages/Shop.jsx",
-                                                    lineNumber: 50,
+                                                    lineNumber: 55,
                                                     columnNumber: 29
                                                 }, undefined)
                                             ]
                                         }, void 0, true, {
                                             fileName: "src/pages/Shop.jsx",
-                                            lineNumber: 47,
+                                            lineNumber: 52,
                                             columnNumber: 25
                                         }, undefined)
                                     }, void 0, false, {
                                         fileName: "src/pages/Shop.jsx",
-                                        lineNumber: 46,
+                                        lineNumber: 51,
                                         columnNumber: 21
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/pages/Shop.jsx",
-                                lineNumber: 44,
+                                lineNumber: 49,
                                 columnNumber: 17
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -31217,7 +31227,7 @@ const Shop = ()=>{
                                                 children: "Buy Now "
                                             }, void 0, false, {
                                                 fileName: "src/pages/Shop.jsx",
-                                                lineNumber: 56,
+                                                lineNumber: 61,
                                                 columnNumber: 25
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
@@ -31227,56 +31237,111 @@ const Shop = ()=>{
                                                         className: "bi bi-cart-fill"
                                                     }, void 0, false, {
                                                         fileName: "src/pages/Shop.jsx",
-                                                        lineNumber: 57,
+                                                        lineNumber: 62,
                                                         columnNumber: 66
                                                     }, undefined),
                                                     " Add to cart"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "src/pages/Shop.jsx",
-                                                lineNumber: 57,
+                                                lineNumber: 62,
                                                 columnNumber: 25
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/pages/Shop.jsx",
-                                        lineNumber: 55,
+                                        lineNumber: 60,
                                         columnNumber: 21
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {}, void 0, false, {
                                         fileName: "src/pages/Shop.jsx",
-                                        lineNumber: 59,
+                                        lineNumber: 64,
                                         columnNumber: 21
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/pages/Shop.jsx",
-                                lineNumber: 54,
+                                lineNumber: 59,
                                 columnNumber: 17
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/pages/Shop.jsx",
-                        lineNumber: 41,
+                        lineNumber: 46,
                         columnNumber: 13
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/pages/Shop.jsx",
-                lineNumber: 37,
+                lineNumber: 42,
                 columnNumber: 9
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headingDefault.default), {
                 heading: "SEEDS"
             }, void 0, false, {
                 fileName: "src/pages/Shop.jsx",
-                lineNumber: 64,
+                lineNumber: 69,
+                columnNumber: 9
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _seedsDefault.default), {}, void 0, false, {
+                fileName: "src/pages/Shop.jsx",
+                lineNumber: 70,
+                columnNumber: 9
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headingDefault.default), {
+                heading: "FERTILIZERS"
+            }, void 0, false, {
+                fileName: "src/pages/Shop.jsx",
+                lineNumber: 72,
+                columnNumber: 9
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _fertilizersDefault.default), {}, void 0, false, {
+                fileName: "src/pages/Shop.jsx",
+                lineNumber: 73,
+                columnNumber: 9
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headingDefault.default), {
+                heading: "PESTICIDES"
+            }, void 0, false, {
+                fileName: "src/pages/Shop.jsx",
+                lineNumber: 75,
+                columnNumber: 9
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _pesticidesDefault.default), {}, void 0, false, {
+                fileName: "src/pages/Shop.jsx",
+                lineNumber: 76,
+                columnNumber: 9
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headingDefault.default), {
+                heading: "FARM TOOLS"
+            }, void 0, false, {
+                fileName: "src/pages/Shop.jsx",
+                lineNumber: 78,
+                columnNumber: 9
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _farmToolsDefault.default), {}, void 0, false, {
+                fileName: "src/pages/Shop.jsx",
+                lineNumber: 79,
+                columnNumber: 9
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                style: {
+                    height: 200
+                }
+            }, void 0, false, {
+                fileName: "src/pages/Shop.jsx",
+                lineNumber: 80,
+                columnNumber: 9
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _footerDefault.default), {}, void 0, false, {
+                fileName: "src/pages/Shop.jsx",
+                lineNumber: 81,
                 columnNumber: 9
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/pages/Shop.jsx",
-        lineNumber: 9,
+        lineNumber: 14,
         columnNumber: 5
     }, undefined);
 };
@@ -31290,6 +31355,522 @@ $RefreshReg$(_c, "Shop");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","../components/Header":"8BCUx","../../data/productDetails":"cz9qX","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","../components/Heading":"4IatN"}]},["d2FNE","96tIl"], "96tIl", "parcelRequire94c2", {}, null, null, "http://localhost:1234")
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","../components/Header":"8BCUx","../../data/productDetails":"cz9qX","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","../components/Heading":"4IatN","../components/Seeds":"gW96E","../components/Fertilizers":"kZWYb","../components/Pesticides":"eGYqd","../components/FarmTools":"9tkDE","../components/Footer":"lU1xT"}],"gW96E":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$a542 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$a542.init();
+var prevRefreshReg = globalThis.$RefreshReg$;
+var prevRefreshSig = globalThis.$RefreshSig$;
+$parcel$ReactRefreshHelpers$a542.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _seedDetails = require("../../data/SeedDetails");
+var _seedDetailsDefault = parcelHelpers.interopDefault(_seedDetails);
+const Seeds = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "shop-card-container",
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: " seed-container",
+            children: (0, _seedDetailsDefault.default).map((card, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "shop-card seed-card",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "shop-products",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                    src: card.img_url,
+                                    alt: card.pro_name,
+                                    className: "shop-img",
+                                    height: 500
+                                }, void 0, false, {
+                                    fileName: "src/components/Seeds.jsx",
+                                    lineNumber: 12,
+                                    columnNumber: 25
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                    className: "shop-title",
+                                    children: card.pro_name
+                                }, void 0, false, {
+                                    fileName: "src/components/Seeds.jsx",
+                                    lineNumber: 13,
+                                    columnNumber: 25
+                                }, undefined)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/Seeds.jsx",
+                            lineNumber: 11,
+                            columnNumber: 21
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "shop-product-details",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                    className: "shop-price seed-price",
+                                    children: card.pro_price
+                                }, void 0, false, {
+                                    fileName: "src/components/Seeds.jsx",
+                                    lineNumber: 16,
+                                    columnNumber: 25
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                                    className: "seed-card-btn",
+                                    children: "Buy Now"
+                                }, void 0, false, {
+                                    fileName: "src/components/Seeds.jsx",
+                                    lineNumber: 17,
+                                    columnNumber: 25
+                                }, undefined)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/Seeds.jsx",
+                            lineNumber: 15,
+                            columnNumber: 21
+                        }, undefined)
+                    ]
+                }, index, true, {
+                    fileName: "src/components/Seeds.jsx",
+                    lineNumber: 10,
+                    columnNumber: 17
+                }, undefined))
+        }, void 0, false, {
+            fileName: "src/components/Seeds.jsx",
+            lineNumber: 8,
+            columnNumber: 9
+        }, undefined)
+    }, void 0, false, {
+        fileName: "src/components/Seeds.jsx",
+        lineNumber: 7,
+        columnNumber: 5
+    }, undefined);
+};
+_c = Seeds;
+exports.default = Seeds;
+var _c;
+$RefreshReg$(_c, "Seeds");
+
+  $parcel$ReactRefreshHelpers$a542.postlude(module);
+} finally {
+  globalThis.$RefreshReg$ = prevRefreshReg;
+  globalThis.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","../../data/SeedDetails":"6ffWH","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"6ffWH":[function(require,module,exports,__globalThis) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+const SeedDetails = [
+    {
+        img_url: "https://res.cloudinary.com/depyc5ywg/image/upload/v1754587704/default_x8h90i.png",
+        pro_name: "hihi",
+        pro_price: "\u20B9999"
+    },
+    {
+        img_url: "https://res.cloudinary.com/depyc5ywg/image/upload/v1754587704/default_x8h90i.png",
+        pro_name: "ihih",
+        pro_price: "\u20B9999"
+    },
+    {
+        img_url: "https://res.cloudinary.com/depyc5ywg/image/upload/v1754587704/default_x8h90i.png",
+        pro_name: "hihi",
+        pro_price: "\u20B9999"
+    },
+    {
+        img_url: "https://res.cloudinary.com/depyc5ywg/image/upload/v1754587704/default_x8h90i.png",
+        pro_name: "hihi",
+        pro_price: "\u20B9999"
+    }
+];
+exports.default = SeedDetails;
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"kZWYb":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$6d60 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$6d60.init();
+var prevRefreshReg = globalThis.$RefreshReg$;
+var prevRefreshSig = globalThis.$RefreshSig$;
+$parcel$ReactRefreshHelpers$6d60.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _fertilizersDetails = require("../../data/FertilizersDetails");
+var _fertilizersDetailsDefault = parcelHelpers.interopDefault(_fertilizersDetails);
+const Fertilizers = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "shop-card-container",
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: " seed-container",
+            children: (0, _fertilizersDetailsDefault.default).map((card, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "shop-card seed-card",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "shop-products",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                    src: card.img_url,
+                                    alt: card.pro_name,
+                                    className: "shop-img",
+                                    height: 500
+                                }, void 0, false, {
+                                    fileName: "src/components/Fertilizers.jsx",
+                                    lineNumber: 11,
+                                    columnNumber: 25
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                    className: "shop-title",
+                                    children: card.pro_name
+                                }, void 0, false, {
+                                    fileName: "src/components/Fertilizers.jsx",
+                                    lineNumber: 12,
+                                    columnNumber: 25
+                                }, undefined)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/Fertilizers.jsx",
+                            lineNumber: 10,
+                            columnNumber: 21
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "shop-product-details",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                    className: "shop-price seed-price",
+                                    children: card.pro_price
+                                }, void 0, false, {
+                                    fileName: "src/components/Fertilizers.jsx",
+                                    lineNumber: 15,
+                                    columnNumber: 25
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                                    className: "seed-card-btn",
+                                    children: "Buy Now"
+                                }, void 0, false, {
+                                    fileName: "src/components/Fertilizers.jsx",
+                                    lineNumber: 16,
+                                    columnNumber: 25
+                                }, undefined)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/Fertilizers.jsx",
+                            lineNumber: 14,
+                            columnNumber: 21
+                        }, undefined)
+                    ]
+                }, index, true, {
+                    fileName: "src/components/Fertilizers.jsx",
+                    lineNumber: 9,
+                    columnNumber: 17
+                }, undefined))
+        }, void 0, false, {
+            fileName: "src/components/Fertilizers.jsx",
+            lineNumber: 7,
+            columnNumber: 9
+        }, undefined)
+    }, void 0, false, {
+        fileName: "src/components/Fertilizers.jsx",
+        lineNumber: 6,
+        columnNumber: 5
+    }, undefined);
+};
+_c = Fertilizers;
+exports.default = Fertilizers;
+var _c;
+$RefreshReg$(_c, "Fertilizers");
+
+  $parcel$ReactRefreshHelpers$6d60.postlude(module);
+} finally {
+  globalThis.$RefreshReg$ = prevRefreshReg;
+  globalThis.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","../../data/FertilizersDetails":"ii7bv","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"ii7bv":[function(require,module,exports,__globalThis) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+const FertilizersDetails = [
+    {
+        img_url: "https://res.cloudinary.com/depyc5ywg/image/upload/v1754587704/default_x8h90i.png",
+        pro_name: "hihi",
+        pro_price: "\u20B9999"
+    },
+    {
+        img_url: "https://res.cloudinary.com/depyc5ywg/image/upload/v1754587704/default_x8h90i.png",
+        pro_name: "ihih",
+        pro_price: "\u20B9999"
+    },
+    {
+        img_url: "https://res.cloudinary.com/depyc5ywg/image/upload/v1754587704/default_x8h90i.png",
+        pro_name: "hihi",
+        pro_price: "\u20B9999"
+    },
+    {
+        img_url: "https://res.cloudinary.com/depyc5ywg/image/upload/v1754587704/default_x8h90i.png",
+        pro_name: "hihi",
+        pro_price: "\u20B9999"
+    }
+];
+exports.default = FertilizersDetails;
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"eGYqd":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$81a6 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$81a6.init();
+var prevRefreshReg = globalThis.$RefreshReg$;
+var prevRefreshSig = globalThis.$RefreshSig$;
+$parcel$ReactRefreshHelpers$81a6.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _pesticidesDetails = require("../../data/PesticidesDetails");
+var _pesticidesDetailsDefault = parcelHelpers.interopDefault(_pesticidesDetails);
+const Pesticides = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "shop-card-container",
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: " seed-container",
+            children: (0, _pesticidesDetailsDefault.default).map((card, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "shop-card seed-card",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "shop-products",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                    src: card.img_url,
+                                    alt: card.pro_name,
+                                    className: "shop-img",
+                                    height: 500
+                                }, void 0, false, {
+                                    fileName: "src/components/Pesticides.jsx",
+                                    lineNumber: 11,
+                                    columnNumber: 25
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                    className: "shop-title",
+                                    children: card.pro_name
+                                }, void 0, false, {
+                                    fileName: "src/components/Pesticides.jsx",
+                                    lineNumber: 12,
+                                    columnNumber: 25
+                                }, undefined)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/Pesticides.jsx",
+                            lineNumber: 10,
+                            columnNumber: 21
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "shop-product-details",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                    className: "shop-price seed-price",
+                                    children: card.pro_price
+                                }, void 0, false, {
+                                    fileName: "src/components/Pesticides.jsx",
+                                    lineNumber: 15,
+                                    columnNumber: 25
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                                    className: "seed-card-btn",
+                                    children: "Buy Now"
+                                }, void 0, false, {
+                                    fileName: "src/components/Pesticides.jsx",
+                                    lineNumber: 16,
+                                    columnNumber: 25
+                                }, undefined)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/Pesticides.jsx",
+                            lineNumber: 14,
+                            columnNumber: 21
+                        }, undefined)
+                    ]
+                }, index, true, {
+                    fileName: "src/components/Pesticides.jsx",
+                    lineNumber: 9,
+                    columnNumber: 17
+                }, undefined))
+        }, void 0, false, {
+            fileName: "src/components/Pesticides.jsx",
+            lineNumber: 7,
+            columnNumber: 9
+        }, undefined)
+    }, void 0, false, {
+        fileName: "src/components/Pesticides.jsx",
+        lineNumber: 6,
+        columnNumber: 5
+    }, undefined);
+};
+_c = Pesticides;
+exports.default = Pesticides;
+var _c;
+$RefreshReg$(_c, "Pesticides");
+
+  $parcel$ReactRefreshHelpers$81a6.postlude(module);
+} finally {
+  globalThis.$RefreshReg$ = prevRefreshReg;
+  globalThis.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","../../data/PesticidesDetails":"fBYii","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"fBYii":[function(require,module,exports,__globalThis) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+const PesticidesDetails = [
+    {
+        img_url: "https://res.cloudinary.com/depyc5ywg/image/upload/v1754587704/default_x8h90i.png",
+        pro_name: "hihi",
+        pro_price: "\u20B9999"
+    },
+    {
+        img_url: "https://res.cloudinary.com/depyc5ywg/image/upload/v1754587704/default_x8h90i.png",
+        pro_name: "ihih",
+        pro_price: "\u20B9999"
+    },
+    {
+        img_url: "https://res.cloudinary.com/depyc5ywg/image/upload/v1754587704/default_x8h90i.png",
+        pro_name: "hihi",
+        pro_price: "\u20B9999"
+    },
+    {
+        img_url: "https://res.cloudinary.com/depyc5ywg/image/upload/v1754587704/default_x8h90i.png",
+        pro_name: "hihi",
+        pro_price: "\u20B9999"
+    }
+];
+exports.default = PesticidesDetails;
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"9tkDE":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$845e = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$845e.init();
+var prevRefreshReg = globalThis.$RefreshReg$;
+var prevRefreshSig = globalThis.$RefreshSig$;
+$parcel$ReactRefreshHelpers$845e.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _farmToolsDetails = require("../../data/FarmToolsDetails");
+var _farmToolsDetailsDefault = parcelHelpers.interopDefault(_farmToolsDetails);
+const FarmTools = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "shop-card-container",
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: " seed-container",
+            children: (0, _farmToolsDetailsDefault.default).map((card, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "shop-card seed-card",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "shop-products",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                    src: card.img_url,
+                                    alt: card.pro_name,
+                                    className: "shop-img",
+                                    height: 500
+                                }, void 0, false, {
+                                    fileName: "src/components/FarmTools.jsx",
+                                    lineNumber: 11,
+                                    columnNumber: 25
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                    className: "shop-title",
+                                    children: card.pro_name
+                                }, void 0, false, {
+                                    fileName: "src/components/FarmTools.jsx",
+                                    lineNumber: 12,
+                                    columnNumber: 25
+                                }, undefined)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/FarmTools.jsx",
+                            lineNumber: 10,
+                            columnNumber: 21
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "shop-product-details",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                    className: "shop-price seed-price",
+                                    children: card.pro_price
+                                }, void 0, false, {
+                                    fileName: "src/components/FarmTools.jsx",
+                                    lineNumber: 15,
+                                    columnNumber: 25
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                                    className: "seed-card-btn",
+                                    children: "Buy Now"
+                                }, void 0, false, {
+                                    fileName: "src/components/FarmTools.jsx",
+                                    lineNumber: 16,
+                                    columnNumber: 25
+                                }, undefined)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/FarmTools.jsx",
+                            lineNumber: 14,
+                            columnNumber: 21
+                        }, undefined)
+                    ]
+                }, index, true, {
+                    fileName: "src/components/FarmTools.jsx",
+                    lineNumber: 9,
+                    columnNumber: 17
+                }, undefined))
+        }, void 0, false, {
+            fileName: "src/components/FarmTools.jsx",
+            lineNumber: 7,
+            columnNumber: 9
+        }, undefined)
+    }, void 0, false, {
+        fileName: "src/components/FarmTools.jsx",
+        lineNumber: 6,
+        columnNumber: 5
+    }, undefined);
+};
+_c = FarmTools;
+exports.default = FarmTools;
+var _c;
+$RefreshReg$(_c, "FarmTools");
+
+  $parcel$ReactRefreshHelpers$845e.postlude(module);
+} finally {
+  globalThis.$RefreshReg$ = prevRefreshReg;
+  globalThis.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","../../data/FarmToolsDetails":"8upeu","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"8upeu":[function(require,module,exports,__globalThis) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+const FarmToolsDetails = [
+    {
+        img_url: "https://res.cloudinary.com/depyc5ywg/image/upload/v1754587704/default_x8h90i.png",
+        pro_name: "hihi",
+        pro_price: "\u20B9999"
+    },
+    {
+        img_url: "https://res.cloudinary.com/depyc5ywg/image/upload/v1754587704/default_x8h90i.png",
+        pro_name: "ihih",
+        pro_price: "\u20B9999"
+    },
+    {
+        img_url: "https://res.cloudinary.com/depyc5ywg/image/upload/v1754587704/default_x8h90i.png",
+        pro_name: "hihi",
+        pro_price: "\u20B9999"
+    },
+    {
+        img_url: "https://res.cloudinary.com/depyc5ywg/image/upload/v1754587704/default_x8h90i.png",
+        pro_name: "hihi",
+        pro_price: "\u20B9999"
+    }
+];
+exports.default = FarmToolsDetails;
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}]},["d2FNE","96tIl"], "96tIl", "parcelRequire94c2", {}, null, null, "http://localhost:1234")
 
 //# sourceMappingURL=Khetify-UI.08a11c70.js.map
