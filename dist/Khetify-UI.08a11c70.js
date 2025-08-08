@@ -689,6 +689,8 @@ var _header = require("./src/components/Header");
 var _headerDefault = parcelHelpers.interopDefault(_header);
 var _shop = require("./src/pages/Shop");
 var _shopDefault = parcelHelpers.interopDefault(_shop);
+var _servicePAge = require("./src/pages/ServicePAge");
+var _servicePAgeDefault = parcelHelpers.interopDefault(_servicePAge);
 const App = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.BrowserRouter), {
         children: [
@@ -734,6 +736,18 @@ const App = ()=>{
                         fileName: "App.jsx",
                         lineNumber: 17,
                         columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                        path: "/services",
+                        element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _servicePAgeDefault.default), {}, void 0, false, {
+                            fileName: "App.jsx",
+                            lineNumber: 18,
+                            columnNumber: 50
+                        }, void 0)
+                    }, void 0, false, {
+                        fileName: "App.jsx",
+                        lineNumber: 18,
+                        columnNumber: 17
                     }, undefined)
                 ]
             }, void 0, true, {
@@ -763,7 +777,7 @@ $RefreshReg$(_c, "App");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","react-dom/client":"hrvwu","./src/components/Header":"8BCUx","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","react-router-dom":"61z4w","./src/pages/Home":"cORsp","./src/pages/AboutUs":"39wyk","./src/pages/Shop":"bcync"}],"dVPUn":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","react-dom/client":"hrvwu","./src/components/Header":"8BCUx","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","react-router-dom":"61z4w","./src/pages/Home":"cORsp","./src/pages/AboutUs":"39wyk","./src/pages/Shop":"bcync","./src/pages/ServicePAge":"3uUJU"}],"dVPUn":[function(require,module,exports,__globalThis) {
 'use strict';
 module.exports = require("ee51401569654d91");
 
@@ -16260,7 +16274,19 @@ const Header = ()=>{
                             columnNumber: 21
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                            children: "Services"
+                            className: "text-white text-decoration-none",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                to: "/services",
+                                style: {
+                                    color: "white",
+                                    textDecoration: "none"
+                                },
+                                children: "Services"
+                            }, void 0, false, {
+                                fileName: "src/components/Header.jsx",
+                                lineNumber: 16,
+                                columnNumber: 69
+                            }, undefined)
                         }, void 0, false, {
                             fileName: "src/components/Header.jsx",
                             lineNumber: 16,
@@ -31871,6 +31897,38 @@ const FarmToolsDetails = [
 ];
 exports.default = FarmToolsDetails;
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}]},["d2FNE","96tIl"], "96tIl", "parcelRequire94c2", {}, null, null, "http://localhost:1234")
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"3uUJU":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$9446 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$9446.init();
+var prevRefreshReg = globalThis.$RefreshReg$;
+var prevRefreshSig = globalThis.$RefreshSig$;
+$parcel$ReactRefreshHelpers$9446.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+const ServicePage = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        children: "Services"
+    }, void 0, false, {
+        fileName: "src/pages/ServicePAge.jsx",
+        lineNumber: 5,
+        columnNumber: 5
+    }, undefined);
+};
+_c = ServicePage;
+exports.default = ServicePage;
+var _c;
+$RefreshReg$(_c, "ServicePage");
+
+  $parcel$ReactRefreshHelpers$9446.postlude(module);
+} finally {
+  globalThis.$RefreshReg$ = prevRefreshReg;
+  globalThis.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}]},["d2FNE","96tIl"], "96tIl", "parcelRequire94c2", {}, null, null, "http://localhost:1234")
 
 //# sourceMappingURL=Khetify-UI.08a11c70.js.map
