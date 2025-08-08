@@ -31025,7 +31025,7 @@ const Shop = ()=>{
                             src: "https://res.cloudinary.com/depyc5ywg/image/upload/v1754562024/Shop-page-farmer_kqbhxl.png",
                             className: "mt-4",
                             alt: "",
-                            height: 760
+                            height: 765
                         }, void 0, false, {
                             fileName: "src/pages/Shop.jsx",
                             lineNumber: 18,
@@ -31054,7 +31054,8 @@ const Shop = ()=>{
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                     src: item.img_url,
                                     alt: "can't load",
-                                    height: 80
+                                    height: 80,
+                                    className: "category-section-img"
                                 }, void 0, false, {
                                     fileName: "src/pages/Shop.jsx",
                                     lineNumber: 25,
@@ -31107,6 +31108,159 @@ const Shop = ()=>{
             }, void 0, true, {
                 fileName: "src/pages/Shop.jsx",
                 lineNumber: 22,
+                columnNumber: 9
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "usp-container d-flex justify-content-between mt-5 p-3",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "usp-img",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                            src: "https://res.cloudinary.com/depyc5ywg/image/upload/v1754626759/water-level-adjuster_fltczy.png",
+                            alt: ""
+                        }, void 0, false, {
+                            fileName: "src/pages/Shop.jsx",
+                            lineNumber: 39,
+                            columnNumber: 17
+                        }, undefined)
+                    }, void 0, false, {
+                        fileName: "src/pages/Shop.jsx",
+                        lineNumber: 38,
+                        columnNumber: 13
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "usp-content",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                className: "usp-content-p1",
+                                children: "Water Level Adjuster"
+                            }, void 0, false, {
+                                fileName: "src/pages/Shop.jsx",
+                                lineNumber: 42,
+                                columnNumber: 17
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                className: "usp-content-p2",
+                                children: "This IoT device will automatically adjust water supply to fields based on the soil type, field area, crop and the weather conditions. All these four parameters will be used to estimate the expected water supply to fields and this device will get a power supply from solar panels which will increase the efficiency and profitability."
+                            }, void 0, false, {
+                                fileName: "src/pages/Shop.jsx",
+                                lineNumber: 43,
+                                columnNumber: 17
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "d-flex justify-content-between w-25",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                        children: "\u20B9 12,999"
+                                    }, void 0, false, {
+                                        fileName: "src/pages/Shop.jsx",
+                                        lineNumber: 45,
+                                        columnNumber: 21
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                        className: "cart-count-container",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                            className: "cart-button",
+                                            children: [
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                                                    id: "decrementCartCount",
+                                                    className: "border border-0",
+                                                    children: "-"
+                                                }, void 0, false, {
+                                                    fileName: "src/pages/Shop.jsx",
+                                                    lineNumber: 48,
+                                                    columnNumber: 29
+                                                }, undefined),
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                    id: "iotCartCount",
+                                                    children: "1"
+                                                }, void 0, false, {
+                                                    fileName: "src/pages/Shop.jsx",
+                                                    lineNumber: 49,
+                                                    columnNumber: 29
+                                                }, undefined),
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                                                    id: "incrementCount",
+                                                    className: "border border-0",
+                                                    children: "+"
+                                                }, void 0, false, {
+                                                    fileName: "src/pages/Shop.jsx",
+                                                    lineNumber: 50,
+                                                    columnNumber: 29
+                                                }, undefined)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "src/pages/Shop.jsx",
+                                            lineNumber: 47,
+                                            columnNumber: 25
+                                        }, undefined)
+                                    }, void 0, false, {
+                                        fileName: "src/pages/Shop.jsx",
+                                        lineNumber: 46,
+                                        columnNumber: 21
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/pages/Shop.jsx",
+                                lineNumber: 44,
+                                columnNumber: 17
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                                                className: "buy-now-btn ms-2",
+                                                children: "Buy Now "
+                                            }, void 0, false, {
+                                                fileName: "src/pages/Shop.jsx",
+                                                lineNumber: 56,
+                                                columnNumber: 25
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                                                className: "add-to-cart-btn ms-3",
+                                                children: [
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                        className: "bi bi-cart-fill"
+                                                    }, void 0, false, {
+                                                        fileName: "src/pages/Shop.jsx",
+                                                        lineNumber: 57,
+                                                        columnNumber: 66
+                                                    }, undefined),
+                                                    " Add to cart"
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/pages/Shop.jsx",
+                                                lineNumber: 57,
+                                                columnNumber: 25
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/pages/Shop.jsx",
+                                        lineNumber: 55,
+                                        columnNumber: 21
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {}, void 0, false, {
+                                        fileName: "src/pages/Shop.jsx",
+                                        lineNumber: 59,
+                                        columnNumber: 21
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/pages/Shop.jsx",
+                                lineNumber: 54,
+                                columnNumber: 17
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/pages/Shop.jsx",
+                        lineNumber: 41,
+                        columnNumber: 13
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/pages/Shop.jsx",
+                lineNumber: 37,
                 columnNumber: 9
             }, undefined)
         ]

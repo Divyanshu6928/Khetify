@@ -894,6 +894,7 @@ body{
 
 .shop-body-hero-img{
   z-index: 10;
+  filter: drop-shadow(5px 10px 12px black);
 }
 
 .categories-shop p{
@@ -910,17 +911,19 @@ body{
   background-color: #ffffff;
   border-radius: 12px;
   cursor: pointer;
+  margin-bottom: 40px;
 }
 
 .categories-shop:hover{
   color: #000;
-  background-color: rgb(214, 203, 42);
+  background-color: #4dff00 ;
   scale: 1.01;
 
 }
 
 .see-all-btn{
   border: 3px solid black;
+  height: 100px;
 }
 
 .see-all-btn:hover{
@@ -941,4 +944,72 @@ body{
   scale: 1.01;
   transition: 1s;
   transform: translateY(50px);
+}
+
+.buy-now-btn{
+  background-color: #2f8132;
+  color: white;
+  border: 2px solid #000000;
+  padding: 0.6rem 1.5rem;
+  font-weight: 600;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.buy-now-btn:hover{
+  color: black;
+  background-color: #fff;
+  border: 2px solid #000000;
+  transform: scale(1.02);
+}
+
+.usp-container{
+  border: 3px solid black;
+  width: 1000px;
+  background-color: #fff;
+}
+
+.usp-content{
+  width: 550px;
+}
+
+.usp-content-p1{
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.add-to-cart-btn{
+  background-color: #FF8E00;
+  color: black;
+  border: 2px solid #000000;
+  padding: 0.6rem 1.5rem;
+  font-weight: 600;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.add-to-cart-btn:hover{
+  background-color: #fff;
+}
+
+#iotCartCount{
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+  /* margin-top: -10px; */
+  
+}
+
+.cart-button{
+  border-radius: 12px;
+  width: 120px;
+  text-align: center;
+  border: 3px solid black;
+  height: 40px;
+  align-items: center;
+}
+
+#decrementCartCount, #incrementCount, .cart-button{
+  background-color: #BCFFC2;
+  font-size: 22px;
 }
