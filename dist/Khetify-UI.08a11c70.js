@@ -30974,6 +30974,8 @@ var _reactDefault = parcelHelpers.interopDefault(_react);
 var _header = require("../components/Header");
 var _headerDefault = parcelHelpers.interopDefault(_header);
 var _productDetails = require("../../data/productDetails");
+var _heading = require("../components/Heading");
+var _headingDefault = parcelHelpers.interopDefault(_heading);
 const Shop = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "shop-body-container",
@@ -31151,6 +31153,7 @@ const Shop = ()=>{
                                 className: "d-flex justify-content-between w-25",
                                 children: [
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                        className: "usp-price",
                                         children: "\u20B9 12,999"
                                     }, void 0, false, {
                                         fileName: "src/pages/Shop.jsx",
@@ -31262,6 +31265,13 @@ const Shop = ()=>{
                 fileName: "src/pages/Shop.jsx",
                 lineNumber: 37,
                 columnNumber: 9
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headingDefault.default), {
+                heading: "SEEDS"
+            }, void 0, false, {
+                fileName: "src/pages/Shop.jsx",
+                lineNumber: 64,
+                columnNumber: 9
             }, undefined)
         ]
     }, void 0, true, {
@@ -31280,6 +31290,6 @@ $RefreshReg$(_c, "Shop");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","../components/Header":"8BCUx","../../data/productDetails":"cz9qX","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}]},["d2FNE","96tIl"], "96tIl", "parcelRequire94c2", {}, null, null, "http://localhost:1234")
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","../components/Header":"8BCUx","../../data/productDetails":"cz9qX","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","../components/Heading":"4IatN"}]},["d2FNE","96tIl"], "96tIl", "parcelRequire94c2", {}, null, null, "http://localhost:1234")
 
 //# sourceMappingURL=Khetify-UI.08a11c70.js.map

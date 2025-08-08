@@ -853,7 +853,13 @@ body {
 .usp-container {
   background-color: #fff;
   border: 3px solid #000;
+  border-radius: 12px;
+  justify-content: center;
+  align-items: center;
   width: 1000px;
+  margin-bottom: 100px;
+  margin-left: 260px;
+  display: block;
 }
 
 .usp-content {
@@ -863,6 +869,11 @@ body {
 .usp-content-p1 {
   font-size: 25px;
   font-weight: 700;
+}
+
+.usp-content-p2 {
+  font-size: 18px;
+  font-weight: 600;
 }
 
 .add-to-cart-btn {
@@ -892,10 +903,21 @@ body {
   align-items: center;
   width: 120px;
   height: 40px;
+  margin-bottom: 40px;
+  margin-left: 40px;
 }
 
 #decrementCartCount, #incrementCount, .cart-button {
   background-color: #bcffc2;
   font-size: 22px;
+}
+
+.usp-price {
+  color: #066b34;
+  text-wrap: nowrap;
+  width: 200px;
+  margin-top: 3px;
+  font-size: 24px;
+  font-weight: 600;
 }
 /*# sourceMappingURL=Khetify-UI.3a01df49.css.map */

@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from '../components/Header';
 import { categories } from '../../data/productDetails';
-
+import Heading from '../components/Heading'
 
 
 const Shop = () => {
@@ -42,7 +42,7 @@ const Shop = () => {
                 <p className='usp-content-p1'>Water Level Adjuster</p>
                 <p className='usp-content-p2'>This IoT device will automatically adjust water supply to fields based on the soil type, field area, crop and the weather conditions. All these four parameters will be used to estimate the expected water supply to fields and this device will get a power supply from solar panels which will increase the efficiency and profitability.</p>
                 <div className='d-flex justify-content-between w-25'>
-                    <span>₹ 12,999</span>
+                    <span className='usp-price'>₹ 12,999</span>
                     <span className='cart-count-container'>
                         <div className='cart-button'>
                             <button id='decrementCartCount' className='border border-0'>-</button>
@@ -61,6 +61,9 @@ const Shop = () => {
             </div>
         </div>
 
+        <Heading heading="SEEDS"/>
+
+        
     </div>
   )
 }

@@ -967,6 +967,12 @@ body{
   border: 3px solid black;
   width: 1000px;
   background-color: #fff;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  margin-left: 260px;
+  margin-bottom: 100px;
 }
 
 .usp-content{
@@ -976,6 +982,11 @@ body{
 .usp-content-p1{
   font-weight: 700;
   font-size: 25px;
+}
+
+.usp-content-p2{
+  font-weight: 600;
+  font-size: 18px;
 }
 
 .add-to-cart-btn{
@@ -1007,9 +1018,20 @@ body{
   border: 3px solid black;
   height: 40px;
   align-items: center;
+  margin-left: 40px;
+  margin-bottom: 40px;
 }
 
 #decrementCartCount, #incrementCount, .cart-button{
   background-color: #BCFFC2;
   font-size: 22px;
+}
+
+.usp-price{
+  margin-top: 3px;
+  color: #066b34;
+  font-weight: 600;
+  font-size: 24px;
+  width: 200px;
+  text-wrap: nowrap;
 }
